@@ -2,6 +2,7 @@ import React from 'react'
 import{AiFillGithub,AiFillLinkedin,AiFillMail}from'react-icons/ai'
 import assets from '../assets/girl.jpg'
 import {Link} from "react-router-dom";
+import Footer from './footer';
 
 
 export default function Home() {
@@ -22,11 +23,6 @@ export default function Home() {
                Associations 
               </Link>
               </li>
-              <li className='mr-5'>
-                <Link to='/contacts'>
-               Contact
-              </Link>
-              </li>
             </ul>
         </nav>
         <div className="container bg-gray-500 mx-auto px-20 text-gray-100 p-10">
@@ -35,10 +31,23 @@ export default function Home() {
           <img src={assets} alt ='girl'className='mx-aut0 mt-20 overflow-hidden rounded-full w-80 h-80 md:h-96 md:w-96' />
           <div className='px-20 py-20 text-2xl mx-auto font-semibold'> <span className='text-gray-700'>Mbesi</span> is a software engineer and artist who enjoys<br></br>building projects that create solutions<br></br>to modern problems through tech.<br></br>
            Tech to her is a portal to actualizing endless ideas and bringing art to life.
-          <div className='flex gap-5 text-3xl text-gray-700 pt-5' ><AiFillGithub/> <AiFillLinkedin/><AiFillMail/></div>
+          <div  id='contactInfo' className='flex gap-5 text-3xl text-gray-700 pt-5' >
+          <a href= 'https://github.com/Genevive-Mbesi'>
+          <AiFillGithub/>
+          </a>
+          <a href='https://www.linkedin.com/in/genevive-mbesi-5a5a98224/'>
+          <AiFillLinkedin/>
+          </a>
+          <a href='mailto:genmbesi@gmail.com'>
+          <AiFillMail/>
+          </a>
+          </div>
           </div>
         </div>
         </div>
+        <div>
+      <Footer />
+    </div>
       </section>
     </main>
     </div>
