@@ -29,8 +29,8 @@ export default function Home() {
         <h1 className='font-bold font-mono md:text-5xl'>Genevive<br></br>Mbesi</h1>
           <div className='flex'> 
           <img src={assets} alt ='girl'className='mx-aut0 mt-20 overflow-hidden rounded-full w-80 h-80 md:h-96 md:w-96' />
-          <div className='px-20 py-20 text-2xl mx-auto font-semibold'> <span className='text-gray-700'>Mbesi</span> is a software engineer and artist who enjoys<br></br>building projects that create solutions<br></br>to modern problems through tech.<br></br>
-           Tech to her is a portal to actualizing endless ideas and bringing art to life.
+          <div className='px-20 py-20 text-2xl mx-auto font-semibold'> <span className='text-gray-700'>Mbesi</span> is a software engineer and artist with an eye for creativity,<br></br>who enjoys building projects that create fun solutions <br></br>to our modern world problems.<br></br>
+           Tech to her is way of expressing her creativity in problem solving.
           <div  id='contactInfo' className='flex gap-5 text-3xl text-gray-700 pt-5' >
           <a href= 'https://github.com/Genevive-Mbesi'>
           <AiFillGithub/>
