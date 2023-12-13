@@ -1,9 +1,9 @@
 import React from 'react'
-import{AiFillGithub,AiFillLinkedin,AiFillMail}from'react-icons/ai'
 import assets from '../assets/girl.jpg'
 import {Link} from "react-router-dom";
 import Footer from './footer';
 import Proficiency from './proficiency';
+import Contacts from './contacts';
 
 
 export default function Home() {
@@ -37,17 +37,7 @@ export default function Home() {
           <img src={assets} alt ='girl'className='mx-aut0 mt-20 overflow-hidden rounded-full w-80 h-80 md:h-96 md:w-96' />
           <div className='px-20 py-20 text-2xl mx-auto font-semibold'> <span className='text-gray-500'>Mbesi</span> is a software engineer and artist with passion for creativity,<br></br>she enjoys building projects that create fun solutions <br></br>to our modern world problems through tech.<br></br>
            Tech to her is way of expressing her creativity in problem solving.
-          <div  id='contactInfo' className='flex gap-5 text-3xl text-slate-900 pt-5' >
-          <a href= 'https://github.com/Genevive-Mbesi'>
-          <AiFillGithub/>
-          </a>
-          <a href='https://www.linkedin.com/in/genevive-mbesi-5a5a98224/'>
-          <AiFillLinkedin/>
-          </a>
-          <a href='mailto:genmbesi@gmail.com'>
-          <AiFillMail/>
-          </a>
-          </div>
+          <Contacts/>
           </div>
         </div>
         </div>

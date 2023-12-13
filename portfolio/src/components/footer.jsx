@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <div id='footer' className="container mx-auto flex items-center justify-center flex gap-5 text-3xl text-gray-700 pt-5">
+      <div id='footer' className="container mx-auto flex items-center justify-center flex gap-5 text-3xl text-slate-900 pt-5">
           <a href= 'https://github.com/Genevive-Mbesi'>
           <AiFillGithub/>
           </a>
@@ -25,9 +25,14 @@ const Footer = () => {
               Projects
              </Link>
             </li>
-            <li className='list-disc'>
+            <li className='mr-10 list-disc'>
              <Link to='/associations'>
              Associations 
+             </Link>
+            </li>
+            <li className='list-disc'>
+             <Link to='/proficiency'>
+             Proficiency
              </Link>
             </li>
         </ul>
