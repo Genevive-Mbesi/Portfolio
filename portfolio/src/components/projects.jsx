@@ -1,11 +1,12 @@
 import React from "react";
 import gburudishe from '../assets/g-burudishe.png'
 
+
 export default function Projects() {
     return ( 
 <nav className='py-10 '>
-        <h1 className='text-s font-mono font-semibold pl-10 pb-10'>PROJECTS</h1>  
-<div className="container bg-slate-900 mx-auto font-mono px-20 text-gray-100 p-10"> 
+<div className="container bg-slate-900 mx-auto font-mono px-20 text-gray-100 p-10">
+<h1 className="text-gray-100">PROJECTS</h1>
 <div className=" flex items-center mr-10">
     <div className="flex">
     <img src={gburudishe} alt ='g-burudishe'className=' w-70 h-80  rounded-full object-cover shadow-2xl shadow-indigo-500/50 p-3'/>
@@ -35,6 +36,8 @@ Database: MySQL <br></br>
 <a href= 'https://github.com/Genevive-Mbesi/g-burudishe'>
           <span className="text-gray-500">Code</span>
           </a>
+          <br></br>
+          Work in Progress...................
 </h4>
 
     </div>

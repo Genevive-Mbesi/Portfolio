@@ -14,7 +14,6 @@ export default function Proficiency() {
     return ( 
 
 <nav className='py-10 '>
-    <h1 className='text-s  font-semibold font-mono pl-10 pb-10'>PROFICIENCY</h1>
 <div className="container bg-slate-900 font-mono mx-auto px-20 text-gray-100 p-10 ">
 <h1 className="px-20 py-10 text-1xl mx-auto font-semibold">Programming Languages</h1>
  <div className=" flex items-center mr-10">

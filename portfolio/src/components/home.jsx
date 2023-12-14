@@ -1,10 +1,10 @@
 import React from 'react'
 import assets from '../assets/girl.jpg'
-import {Link} from "react-router-dom";
 import Footer from './footer';
 import Proficiency from './proficiency';
 import Contacts from './contacts';
 import Associations from './associations';
+import Projects from './projects';
 
 
 
@@ -13,26 +13,7 @@ export default function Home() {
     <div>
     <main className=' px-20 md:px-20 lg:px-40' >
       <section className=' min-h-screen ' >
-        <nav className='py-10 flex justify-between'>
-          <h1 className='text-s  font-semibold font-mono pl-10'>GENEVIVE MBESI</h1>
-            <ul className='flex items-center mr-20'>
-            <li className='mr-5'>
-                <Link to='/proficiency'>
-               Proficiency
-              </Link>
-              </li>
-              <li className='mr-5'>
-                <Link to='/projects'>
-               Projects
-              </Link>
-              </li>
-              <li className='mr-5'>
-                <Link to='/associations'>
-               Associations 
-              </Link>
-              </li>
-            </ul>
-        </nav>
+        
         <div className="container bg-slate-900 mx-auto px-20 text-gray-100 p-10">
         <h1 className='font-bold font-mono md:text-5xl'>Genevive<br></br>Mbesi</h1>
           <div className='flex'> 
@@ -44,7 +25,8 @@ export default function Home() {
         </div>
         </div>
         <div>
-       <Associations/>   
+       <Associations/> 
+       <Projects/> 
       <Proficiency/>
       <Footer />
     </div>
