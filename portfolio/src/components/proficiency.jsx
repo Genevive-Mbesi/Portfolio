@@ -1,7 +1,7 @@
 import React from "react";
 import Python from '../assets/Python.png'
 import javascript from '../assets/javascript.png'
-import postgress from '../assets/postgress.png'
+import postgres from '../assets/postgres.png'
 import reactlogo from '../assets/React.png'
 import flask from '../assets/Flask.png'
 import nextjs from '../assets/nextjs.svg'
@@ -23,7 +23,7 @@ export default function Proficiency() {
     <h3 className="pl-2">Python</h3>
     </div>
     <div className="column-row">
-    <img src={javascript} alt ='Javascript'className=' w-40 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
+    <img src={javascript} alt ='Javascript'className=' w-20 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
     <h3 className="pl-2">Javascript</h3>
     </div>
  </div>
@@ -44,12 +44,12 @@ export default function Proficiency() {
 </div><h1 className="px-20 py-10 text-1xl mx-auto font-semibold">Database Management</h1>
  <div className=" flex items-center mr-10">
  <div className="column-row">   
-<img src={mysql} alt ='mysql'className='mr-20 w-40 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
+<img src={mysql} alt ='mysql'className='mr-20 w-20 rounded-full object-cover h-20 w-20 container bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
 <h3 className="pl-2">mySQL</h3>
     </div>
     <div className="column-row"> 
-<img src={postgress} alt ='Postgress'className='mr-20 w-40 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
-<h3 className="pl-2">Postgress</h3>
+<img src={postgres} alt ='Postgres'className='mr-20 w-20 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
+<h3 className="pl-2">PostgreSQL</h3>
     </div>
 </div>
 <h1 className="px-20 py-10 text-1xl mx-auto font-semibold" >Front-End Technologies</h1>

@@ -4,6 +4,8 @@ import {Link} from "react-router-dom";
 import Footer from './footer';
 import Proficiency from './proficiency';
 import Contacts from './contacts';
+import Associations from './associations';
+
 
 
 export default function Home() {
@@ -42,6 +44,7 @@ export default function Home() {
         </div>
         </div>
         <div>
+       <Associations/>   
       <Proficiency/>
       <Footer />
     </div>
