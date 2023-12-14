@@ -4,8 +4,8 @@ import Moringa from '../assets/Moringa.png'
 export default function Associations() {
     return ( 
         <nav className='py-10 '>
-        <h1 className='text-s  font-semibold font-mono pl-10 pb-10'>ASSOCIATIONS</h1>  
-<div className="container bg-slate-900 mx-auto px-20 text-gray-100 p-10"> 
+        <h1 className='text-s font-mono font-semibold pl-10 pb-10'>ASSOCIATIONS</h1>  
+<div className="container bg-slate-900 mx-auto font-mono px-20 text-gray-100 p-10"> 
 <div className=" flex items-center mr-10">
     <div className="column-row">
     <img src={Moringa} alt ='Moringa Logo'className=' mr-40 w-40 rounded-full object-cover container   rounded-full shadow-2xl shadow-indigo-500/50 p-3 '/>
