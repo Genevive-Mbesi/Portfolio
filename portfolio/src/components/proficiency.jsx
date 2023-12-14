@@ -35,11 +35,11 @@ export default function Proficiency() {
  </div>
 <div className="column-row">
 <img src={flask} alt ='Flask'className='mr-20 w-20 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3'/>
-<h3 className="pl-2">Flask</h3>
+<h3 className="pl-5">Flask</h3>
     </div>
  <div className="column-row">
 <img src={nextjs} alt ='next js'className='40 w-20 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
-<h3 className="pl-2">Next.js</h3>
+<h3 className="pl-4">Next.js</h3>
     </div>
 </div><h1 className="px-20 py-10 text-1xl mx-auto font-semibold">Database Management</h1>
  <div className=" flex items-center mr-10">
@@ -56,11 +56,11 @@ export default function Proficiency() {
 <div className=" flex items-center mr-10">
 <div className="column-row">   
 <img src={htmllogo} alt ='html5'className='mr-20 w-20 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
-<h3 className="pl-2">Html5</h3>
+<h3 className="pl-4">Html5</h3>
     </div>
 <div className="column-row">  
 <img src={csslogo} alt ='css'className='mr-20 w-20 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
-<h3 className="pl-2">CSS</h3>
+<h3 className="pl-6">CSS</h3>
     </div>
 <div className="column-row">   
 <img src={tailwind} alt ='tailwind'className='w-20 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
