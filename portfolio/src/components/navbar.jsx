@@ -6,7 +6,7 @@ export default function Navbar() {
       <div>
           <nav className='py-10 flex justify-between'>
             <h1 className='text-s  font-semibold font-mono pl-20'>
-                <Link to='/home'>
+                <Link to='/'>
                 GENEVIVE MBESI
                 </Link>
                 </h1>

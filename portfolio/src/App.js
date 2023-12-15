@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import './App.css';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import Home from "./components/home";
 import Proficiency from "./components/proficiency";
 import Projects from "./components/projects";
@@ -12,10 +12,62 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/proficiency" element={<Proficiency />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/associations" element={<Associations />} />
+        <Route
+          path="/"
+          element={
+            <TransitionGroup>
+              <CSSTransition
+                key="home"
+                timeout={450}
+                classNames="fade"
+              >
+                <Home />
+              </CSSTransition>
+            </TransitionGroup>
+          }
+        />
+        <Route
+          path="/proficiency"
+          element={
+            <TransitionGroup>
+              <CSSTransition
+                key="proficiency"
+                timeout={450}
+                classNames="fade"
+              >
+                <Proficiency />
+              </CSSTransition>
+            </TransitionGroup>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <TransitionGroup>
+              <CSSTransition
+                key="projects"
+                timeout={450}
+                classNames="fade"
+              >
+                <Projects />
+              </CSSTransition>
+            </TransitionGroup>
+          }
+        />
+        <Route
+          path="/associations"
+          element={
+            <TransitionGroup>
+              <CSSTransition
+                key="associations"
+                timeout={450}
+                classNames="fade"
+              >
+                <Associations />
+              </CSSTransition>
+            </TransitionGroup>
+          }
+        />
       </Routes>
     </div>
   );
