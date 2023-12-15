@@ -9,7 +9,7 @@ export default function Projects() {
 <h1 className="text-gray-100">PROJECTS</h1>
 <div className=" flex items-center mr-10">
     <div className="flex">
-    <img src={gburudishe} alt ='g-burudishe'className=' w-70 h-80  rounded-full object-cover shadow-2xl shadow-indigo-500/50 p-3'/>
+    <img src={gburudishe} alt ='g-burudishe'className='motion-safe:animate-pulse w-70 h-80  rounded-full object-cover shadow-2xl shadow-indigo-500/50 p-3'/>
     <h3 className="pl-6"> </h3>
     <h4><span className="font-semibold">Introducing g ~ burudishe </span> : Your Gateway to Relaxation <br></br>
 
