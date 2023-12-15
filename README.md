@@ -3,8 +3,12 @@ Welcome to my portfolio! 👋 I'm [Genevive Mbesi], a recent graduate of Moringa
 
 #### Technical Skills
 Programming Languages: Python, JavaScript
+
 Web Development: React, Flask
+
 Database Management: MySQL
+
 Version Control: Git
+
 Front-End Technologies: HTML5, CSS, Tailwind, Bootstrap
 
