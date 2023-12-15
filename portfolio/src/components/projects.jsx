@@ -8,10 +8,10 @@ export default function Projects() {
 <div className="container bg-slate-900 mx-auto font-mono px-20 text-gray-100 p-10">
 <h1 className="text-gray-100">PROJECTS</h1>
 <div className=" flex items-center mr-10">
-    <div className="flex">
-    <img src={gburudishe} alt ='g-burudishe'className='motion-safe:animate-pulse w-70 h-80  rounded-full object-cover shadow-2xl shadow-indigo-500/50 p-3'/>
+    <div className="container ring-2 ring-slate-500">
+    <img src={gburudishe} alt ='g-burudishe'className='motion-safe:animate-pulse w-80  rounded-full object-cover shadow-indigo-500 p-3'/>
     <h3 className="pl-6"> </h3>
-    <h4><span className="font-semibold">Introducing g ~ burudishe </span> : Your Gateway to Relaxation <br></br>
+    <h4 className="text-xs"><span className="font-semibold">Introducing g ~ burudishe </span> : Your Gateway to Relaxation <br></br>
 
 Are you tired of the same old routine and looking for the perfect place to unwind during holidays, vacations, events, or weekends? Look no further! Introducing g ~ burudishe , a cutting-edge web application designed to revolutionize the way you discover and experience relaxation.
 
