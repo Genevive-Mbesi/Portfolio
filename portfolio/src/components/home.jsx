@@ -21,9 +21,9 @@ export default function Home() {
            Tech to her is way of expressing her creativity in problem solving.
           <Contacts/>
           <div className='py-2 font-mono text-xs'>
+          click to view
           <Link to='/projects'>
-             click to view <span className='text-gray-500'>Projects</span>
-
+          <span className='text-gray-500'> Projects</span>
             </Link>
             </div>    
           </div>
