@@ -11,7 +11,7 @@ import {Link} from "react-router-dom";
 
 export default function Home() {
   return (
-    <div >
+    <div className='bg-slate-900' >
         <div className="container bg-slate-900 mx-auto px-20 text-gray-100 p-10">
         <h1 className='font-bold font-mono md:text-5xl'>Genevive<br></br>Mbesi</h1>
           <div className='text-s'> 
