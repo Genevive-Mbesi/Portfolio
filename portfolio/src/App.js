@@ -9,7 +9,7 @@ import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <div>
+    <div className='bg-slate-900'>
       <Navbar />
       <Routes>
         <Route
