@@ -4,8 +4,8 @@ import {Link} from "react-router-dom";
 export default function Navbar() {
     return (
       <div className="text-s">
-          <nav className='py-10 flex justify-between'>
-            <h1 className='text-s font-semibold font-mono mr-5 pl-20'>
+          <nav className='py-5 flex justify-between'>
+            <h1 className='text-s font-semibold font-mono mr-20 pl-20'>
                 <Link to='/'>
                 Home
                 </Link>

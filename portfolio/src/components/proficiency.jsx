@@ -15,7 +15,7 @@ export default function Proficiency() {
 
 <nav className='py-10 '>
 <div className="container bg-slate-900 font-mono mx-auto px-20 text-gray-100 p-10 ">
-<h1 className="px-20 py-10 text-1xl mx-auto font-semibold">Programming Languages</h1>
+<h1 className=" py-10 text-1xl mx-auto font-semibold">Programming Languages</h1>
  <div className=" flex items-center mr-10">
     <div className="column-row">
     <img src={Python} alt ='Python'className=' animate-spin mr-20 w-20 rounded-full object-cover container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3 '/>
@@ -26,7 +26,7 @@ export default function Proficiency() {
     <h3 className="pl-1">Javascript</h3>
     </div>
  </div>
- <h1 className=" px-20 py-10 text-1xl mx-auto font-semibold">Web Development</h1>
+ <h1 className=" py-10 text-1xl mx-auto font-semibold">Web Development</h1>
 <div className=" flex items-center mr-10">
 <div className="column-row"> 
 <img src={reactlogo} alt ='React'className='animate-spin mr-20 w-20 rounded-full object-cover container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
@@ -40,7 +40,7 @@ export default function Proficiency() {
 <img src={nextjs} alt ='next js'className='animate-spin 40 w-20 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
 <h3 className="pl-4">Next.js</h3>
     </div>
-</div><h1 className="px-20 py-10 text-1xl mx-auto font-semibold">Database Management</h1>
+</div><h1 className="py-10 text-1xl mx-auto font-semibold">Database Management</h1>
  <div className=" flex items-center mr-10">
  <div className="column-row">   
 <img src={mysql} alt ='mysql'className='animate-spin mr-20 w-20 rounded-full object-cover h-20 w-20 container bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
@@ -51,7 +51,7 @@ export default function Proficiency() {
 <h3 className="pl-2">PostgreSQL</h3>
     </div>
 </div>
-<h1 className="px-20 py-10 text-1xl mx-auto font-semibold" >Front-End Technologies</h1>
+<h1 className="py-10 text-1xl mx-auto font-semibold" >Front-End Technologies</h1>
 <div className=" flex items-center mr-10">
 <div className="column-row">   
 <img src={htmllogo} alt ='html5'className='animate-spin mr-20 w-20 rounded-full object-cover h-20 w-20 container  bg-indigo-400  rounded-full shadow-2xl shadow-indigo-500/50 p-3' />
@@ -66,8 +66,8 @@ export default function Proficiency() {
 <h3 className="pl-2">Tailwind CSS</h3>
     </div>
 </div>
-<h1 className="px-20 py-10 text-1xl mx-auto font-semibold" > Version Control <span className="mb-2 md:mb-0 md:inline-block"></span> : <span className="mb-2 md:mb-0 md:inline-block"></span> Git</h1>
-<h1 className="px-20 py-10 text-1xl mx-auto font-semibold" >Others <span className="mb-2 md:mb-0 md:inline-block"></span> : <span className="mb-2 md:mb-0 md:inline-block"></span> RESTful API Development <span className="mb-2 md:mb-0 md:inline-block"></span> & Web Design </h1>
+<h1 className="py-10 text-1xl mx-auto font-semibold" > Version Control <span className="mb-2 md:mb-0 md:inline-block"></span> : <span className="mb-2 md:mb-0 md:inline-block"></span> Git</h1>
+<h1 className="py-10 text-1xl mx-auto font-semibold" >Others <span className="mb-2 md:mb-0 md:inline-block"></span> : <span className="mb-2 md:mb-0 md:inline-block"></span> RESTful API Development <span className="mb-2 md:mb-0 md:inline-block"></span> & Web Design </h1>
 
 </div>
 </nav>
