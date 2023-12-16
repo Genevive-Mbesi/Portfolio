@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
       <div className="text-s">
           <nav className='py-10 flex justify-between'>
-            <h1 className='text-s  font-semibold font-mono pl-20'>
+            <h1 className='text-s font-semibold font-mono mr-5 pl-20'>
                 <Link to='/'>
                 Home
                 </Link>
