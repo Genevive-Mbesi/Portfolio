@@ -4,7 +4,7 @@ import gburudishe from '../assets/g-burudishe.png'
 
 export default function Projects() {
     return ( 
-<nav className='py-10 '>
+
 <div className="container bg-slate-900 mx-auto font-mono px-20 text-gray-100 p-10">
 <h1 className="text-gray-100">PROJECTS</h1>
 <div className=" flex items-center mr-10">
@@ -43,6 +43,5 @@ Database: MySQL <br></br>
     </div>
     </div>
 </div>
-</nav>
     )
 }

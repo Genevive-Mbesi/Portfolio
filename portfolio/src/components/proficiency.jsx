@@ -13,8 +13,8 @@ import csslogo from '../assets/csslogo.png'
 export default function Proficiency() {
     return ( 
 
-<nav className='py-10 '>
 <div className="container bg-slate-900 font-mono mx-auto px-20 text-gray-100 p-10 ">
+    
 <h1 className=" py-10 text-1xl mx-auto font-semibold">Programming Languages</h1>
  <div className=" flex items-center mr-10">
     <div className="column-row">
@@ -68,9 +68,7 @@ export default function Proficiency() {
 </div>
 <h1 className="py-10 text-1xl mx-auto font-semibold" > Version Control <span className="mb-2 md:mb-0 md:inline-block"></span> : <span className="mb-2 md:mb-0 md:inline-block"></span> Git</h1>
 <h1 className="py-10 text-1xl mx-auto font-semibold" >Others <span className="mb-2 md:mb-0 md:inline-block"></span> : <span className="mb-2 md:mb-0 md:inline-block"></span> RESTful API Development <span className="mb-2 md:mb-0 md:inline-block"></span> & Web Design </h1>
-
 </div>
-</nav>
 
     )
 }
