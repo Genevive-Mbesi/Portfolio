@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 export default function Navbar() {
     return (
-      <div>
+      <div className="text-s">
           <nav className='py-10 flex justify-between'>
             <h1 className='text-s  font-semibold font-mono pl-20'>
                 <Link to='/'>
