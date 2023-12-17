@@ -20,3 +20,8 @@ opacity: 0;
 transition: opacity 150ms linear;
 }
 
+.body {
+  
+  background-color: #0f172a; /* Replace with your desired color value for bg-slate-900 */
+  
+}
