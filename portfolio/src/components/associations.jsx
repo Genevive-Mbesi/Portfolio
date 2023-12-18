@@ -3,7 +3,7 @@ import Moringa from '../assets/Moringa.png'
 
 export default function Associations() {
     return (
-<div className="px-20  mx-auto container bg-slate-900 mx-auto font-mono text-gray-100 p-10"> 
+<div className="px-20  mx-20 container bg-slate-900 mx-auto font-mono text-gray-100 p-10"> 
 <div className=" flex items-center mr-10">
     <div className="column-row ring-slate-500 container ring-2 ring-slate-5">
     <img src={Moringa} alt ='Moringa Logo'className='motion-safe:animate-pulse w-40 rounded-full object-cover container   rounded-full shadow-2xl  p-3 '/>

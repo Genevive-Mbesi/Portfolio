@@ -5,7 +5,7 @@ import gburudishe from '../assets/g-burudishe.png'
 export default function Projects() {
     return ( 
 
-<div className="container min-h-screen bg-slate-900 mx-auto font-mono px-20 text-gray-100 p-10">
+<div className="container min-h-screen bg-slate-900 mx-20 font-mono px-20 text-gray-100 p-10">
 <h1 className="text-gray-100">PROJECTS</h1>
 <div className=" flex items-center mr-10">
     <div className="container ring-2 ring-slate-500">
