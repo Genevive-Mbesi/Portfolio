@@ -14,7 +14,7 @@ import csslogo from '../assets/csslogo.png'
 export default function Proficiency() {
     return ( 
 
-<div className="container bg-slate-900 font-mono mx-20 px-20 text-gray-100 p-10 ">
+<div className="container bg-slate-900 font-mono mx-auto px-20 text-gray-100 p-10 ">
     
 <h1 className=" py-10 text-1xl mx-auto font-semibold">Programming Languages</h1>
  <div className=" flex items-center mr-10">
