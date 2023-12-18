@@ -9,14 +9,15 @@ export default function Navbar() {
                 <Link to='/'>
                 Home
                 </Link>
-                </h1>   
+                </h1>
+                <div className="mx-auto"> 
               <ul className='flex items-center mr-20'>
-              <li className='mr-6'>
+              <li className='mr-4'>
                   <Link to='/proficiency'>
                  Proficiency
                 </Link>
                 </li>
-                <li className='mr-6'>
+                <li className='mr-4'>
                   <Link to='/projects'>
                  Projects
                 </Link>
@@ -27,6 +28,7 @@ export default function Navbar() {
                 </Link>
                 </li>
               </ul>
+              </div>
               <div/>
           </nav>
           </div>
