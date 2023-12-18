@@ -11,6 +11,8 @@ export default function Associations() {
     <h4 className='text-xs'>Training : Moringa School<br></br> Course : Software Engineering <br></br>Technical Skills:JavaScript, Python, React,Flask,mySQL,PostgreSQL,<br></br>Git,Html,CSS,Tailwind CSS and Bootsrap<br></br>Soft Skills :Collaboration, Leadership, Effective communication.<br></br> Graduated : November, 2023</h4>
     </div>
     </div>
+
 </div>
+
     )
 }

@@ -6,6 +6,7 @@ import Proficiency from "./components/proficiency";
 import Projects from "./components/projects";
 import Associations from "./components/associations";
 import Navbar from "./components/navbar";
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
           }
         />
       </Routes>
+      <Footer/>
     </div>
   );
 }

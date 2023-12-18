@@ -1,6 +1,5 @@
 import React from 'react'
 import assets from '../assets/girl.jpg'
-import Footer from './footer';
 import Proficiency from './proficiency';
 import Contacts from './contacts';
 import Associations from './associations';
@@ -10,7 +9,7 @@ import {Link} from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className='w-screen'>
+    <div>
         <div className="container bg-slate-900 mx-auto px-20 text-gray-100 p-10">
         <h1 className='font-bold font-mono md:text-5xl'>Genevive<br></br>Mbesi</h1>
           <div className='text-s'> 
@@ -30,7 +29,6 @@ export default function Home() {
         <div>
       <Associations/> 
       <Proficiency/>
-      <Footer />
     </div>
     </div>
   )

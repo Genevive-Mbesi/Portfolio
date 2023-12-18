@@ -10,6 +10,7 @@ import mysql from '../assets/mysql.png'
 import htmllogo from '../assets/htmllogo.png'
 import csslogo from '../assets/csslogo.png'
 
+
 export default function Proficiency() {
     return ( 
 
