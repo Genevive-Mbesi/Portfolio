@@ -9,7 +9,6 @@ import tailwind from '../assets/Tailwind CSS.png'
 import mysql from '../assets/mysql.png'
 import htmllogo from '../assets/htmllogo.png'
 import csslogo from '../assets/csslogo.png'
-import Footer from './footer';
 
 
 export default function Proficiency() {
@@ -70,7 +69,7 @@ export default function Proficiency() {
 </div>
 <h1 className="py-10 text-1xl mx-auto font-semibold" > Version Control <span className="mb-2 md:mb-0 md:inline-block"></span> : <span className="mb-2 md:mb-0 md:inline-block"></span> Git</h1>
 <h1 className="py-10 text-1xl mx-auto font-semibold" >Others <span className="mb-2 md:mb-0 md:inline-block"></span> : <span className="mb-2 md:mb-0 md:inline-block"></span> RESTful API Development <span className="mb-2 md:mb-0 md:inline-block"></span> & Web Design </h1>
-<Footer/>
+
 </div>
 
     )
