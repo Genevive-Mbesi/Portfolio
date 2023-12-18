@@ -11,7 +11,7 @@ export default function Navbar() {
                 </Link>
                 </h1>
                 <div className="mx-auto"> 
-              <ul className='flex items-center mr-20'>
+              <ul className='flex items-center'>
               <li className='mr-4'>
                   <Link to='/proficiency'>
                  Proficiency
