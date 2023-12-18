@@ -11,15 +11,14 @@ export default function Navbar() {
                 Home
                 </Link>
                 </h1>   
-                <div className="hidden sm:block">
-                                    
+                <div className="">                  
               <ul className='flex items-center mr-20'>
-              <li className='mr-4'>
+              <li className='mr-6'>
                   <Link to='/proficiency'>
                  Proficiency
                 </Link>
                 </li>
-                <li className='mr-4'>
+                <li className='mr-6'>
                   <Link to='/projects'>
                  Projects
                 </Link>
