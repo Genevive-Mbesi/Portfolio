@@ -1,16 +1,14 @@
 import React from "react";
 import gburudishe from '../assets/g-burudishe.png'
-import {Card, CardHeader,CardFooter,Typography,CardBody, Button} from "@material-tailwind/react";
+import {Card, CardHeader,CardFooter,Typography,CardBody,} from "@material-tailwind/react";
 
 
 export default function Projects() {
     return ( 
-
-<div className="container  bg-slate-900 mx-auto font-mono  px-20 text-gray-100 p-10">
-<Card className="mr-10 ring-2 column-row ring-slate-500">
+<Card className="mr-10 container ring-2 column-row font-mono text-gray-100 p-10 px-20 column-row mx-auto  ring-slate-500">
       <CardHeader>
         <img
-          src={gburudishe} alt ='g-burudishe'className='motion-safe:animate-pulse w-90 shadow-indigo-500 p-3'
+          src={gburudishe} alt ='g-burudishe'className=' shadow-indigo-500 p-3'
         />
       </CardHeader>
       <CardBody>
@@ -38,6 +36,5 @@ Database: MySQL <br></br>
       <CardFooter className="pt-0">
       </CardFooter>
     </Card>
-    </div>
     )
 }
