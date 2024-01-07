@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import{AiOutlineMenu}from'react-icons/ai'
 
 export default function Navbar() {
     return (
@@ -12,8 +11,6 @@ export default function Navbar() {
                 </Link>
                 </h1>
                 <div className="mx-auto"> 
-                <div className="block sm:hidden"><AiOutlineMenu/>
-                </div>
               <ul className='flex items-center'>
               <li className='mr-4'>
                   <Link to='/proficiency'>

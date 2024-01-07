@@ -6,8 +6,8 @@ import {Card, CardHeader,CardFooter,Typography,CardBody, Button} from "@material
 export default function Projects() {
     return ( 
 
-<div className="container min-h-screen bg-slate-900 mx-auto font-mono px-20 text-gray-100 p-10">
-<Card className="mr-10 ring-2 ring-slate-500 ">
+<div className="container  bg-slate-900 mx-auto font-mono  px-20 text-gray-100 p-10">
+<Card className="mr-10 ring-2 column-row ring-slate-500">
       <CardHeader>
         <img
           src={gburudishe} alt ='g-burudishe'className='motion-safe:animate-pulse w-90 shadow-indigo-500 p-3'
