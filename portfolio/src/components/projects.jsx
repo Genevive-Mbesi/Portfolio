@@ -5,7 +5,7 @@ import {Card, CardHeader,CardFooter,Typography,CardBody,} from "@material-tailwi
 
 export default function Projects() {
     return ( 
-<Card className=" font-mono text-gray-100 p-10  mx-20">
+<Card className=" font-mono text-gray-100 p-10 px-20  mx-20">
       <CardBody>
         <img
           src={gburudishe} alt ='g-burudishe'className='w-80 shadow-indigo-500 '
