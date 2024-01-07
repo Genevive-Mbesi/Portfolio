@@ -10,8 +10,7 @@ export default function Navbar() {
                 Home
                 </Link>
                 </h1>
-                <div className="mx-auto"> 
-              <ul className='flex items-center'>
+              <ul className='flex items-center mr-20'>
               <li className='mr-4'>
                   <Link to='/proficiency'>
                  Proficiency
@@ -28,7 +27,7 @@ export default function Navbar() {
                 </Link>
                 </li>
               </ul>
-              </div>
+              
               <div/>
           </nav>
           </div>
