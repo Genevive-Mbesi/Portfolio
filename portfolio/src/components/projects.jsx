@@ -1,11 +1,11 @@
 import React from "react";
 import gburudishe from '../assets/g-burudishe.png'
-import {Card, CardHeader,CardFooter,Typography,CardBody,} from "@material-tailwind/react";
+import {Card,CardFooter,Typography,CardBody,} from "@material-tailwind/react";
 
 
 export default function Projects() {
     return ( 
-<Card className=" font-mono text-gray-100 p-10 px-20  mx-20">
+<Card className=" font-mono text-gray-100 p-10 px-20 mx-auto">
       <CardBody>
         <img
           src={gburudishe} alt ='g-burudishe'className='w-80 shadow-indigo-500 '
@@ -26,7 +26,7 @@ and an enjoyable seamless user experience.<br></br>
 
 <span className="font-semibold" >Tech Stack:</span>
 
-Frontend: HTML, Tailwind CSS, Node.js, React <br></br>
+Frontend: HTML, Tailwind CSS, React <br></br>
 Backend: Python, Django<br></br>
 Database: MySQL <br></br>
 <a href= 'https://github.com/Genevive-Mbesi/g-burudishe'><span className="text-gray-500">Code</span></a>
