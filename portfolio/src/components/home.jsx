@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className='font-bold font-mono md:text-5xl'>Genevive<br></br>Mbesi</h1>
           <div className='text-s'> 
           <img src={assets} alt ='girl'className='w-40 rounded-full overflow-hidden container' />
-          <div className=' py-10 text-2xl mx-auto font-mono'> <span className='text-gray-500'>Mbesi</span> is a software engineer and artist with a passion for creativity,<br></br>she enjoys building projects that create fun solutions <br></br>to our modern world problems through tech.<br></br>
+          <div className=' py-10 text-xl mx-auto font-mono'> <span className='text-gray-500'>Mbesi</span> is a software engineer and artist with a passion for creativity,<br></br>she enjoys building projects that create fun solutions <br></br>to our modern world problems through tech.<br></br>
            Tech to her is way of expressing her creativity in problem solving.
           <Contacts/>
           <div className='py-2 font-mono text-xs'>
@@ -28,8 +28,8 @@ export default function Home() {
         </div>
         </div>
         <div>
-      <Associations/> 
       <Proficiency/>
+      <Associations/> 
       <Footer/>
     </div>
     </div>

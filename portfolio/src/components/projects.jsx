@@ -5,7 +5,7 @@ import {Card,CardFooter,Typography,CardBody,} from "@material-tailwind/react";
 
 export default function Projects() {
     return ( 
-<Card className=" font-mono text-gray-100 p-10 px-20 container  mx-auto">
+<Card className=" font-mono text-gray-100 p-10 px-20 container bg-slate-900  mx-auto">
       <CardBody>
         <img
           src={gburudishe} alt ='g-burudishe'className='w-80 shadow-indigo-500 '
