@@ -1,8 +1,6 @@
 import React from 'react'
 import assets from '../assets/girl.jpg'
-import Proficiency from './proficiency';
 import Contacts from './contacts';
-import Associations from './associations';
 import {Link} from "react-router-dom";
 import Footer from './footer';
 
@@ -28,8 +26,6 @@ export default function Home() {
         </div>
         </div>
         <div>
-      <Proficiency/>
-      <Associations/> 
       <Footer/>
     </div>
     </div>
