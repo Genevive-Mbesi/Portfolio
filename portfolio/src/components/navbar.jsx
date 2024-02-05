@@ -16,7 +16,7 @@ export default function Navbar() {
           <h1 className="text-s font-semibold font-mono mb-4 lg:mb-0">
             <Link to="/">Home</Link>
           </h1>
-          <div className="lg:hidden ml-auto">
+          <div className="lg:hidden mb-3 lg:mb-0 lg:mr-3 ">
             {/* Button to toggle the menu on small screens */}
             <h1 onClick={toggleMenu} className="cursor-pointer">
               <AiOutlineMenu />
