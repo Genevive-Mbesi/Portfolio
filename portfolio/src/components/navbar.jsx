@@ -16,7 +16,7 @@ export default function Navbar() {
           <h1 className="text-s font-semibold font-mono mb-4 lg:mb-0">
             <Link to="/">Home</Link>
           </h1>
-          <div className="lg:hidden lg:flex flex-col  lg:items-center absolute top-8 right-4 mt-2  ">
+          <div className="lg:hidden lg:flex flex-col lg:items-center absolute top-8 right-4 mt-2">
             {/* Button to toggle the menu on small screens */}
             <h1 onClick={toggleMenu} className="cursor-pointer">
               <AiOutlineMenu />
@@ -25,8 +25,10 @@ export default function Navbar() {
         </div>
         <ul
           className={`${
-            showMenu ? "flex flex-col" : "hidden"
-          } lg:flex flex-col lg:flex-row lg:items-center absolute top-12 right-4 mt-2 bg-gray-800 p-4 rounded-lg`}
+            showMenu
+              ? "flex flex-col bg-gray-800 p-4 rounded-lg"
+              : "hidden"
+          } lg:flex lg:flex-row lg:items-center absolute top-12 right-4 mt-2`}
         >
           <li className="mb-4 lg:mb-0 lg:mr-4">
             <Link to="/proficiency">Proficiency</Link>
