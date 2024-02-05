@@ -16,7 +16,7 @@ export default function Home() {
           <div className='text-s'> 
           <img src={assets} alt ='girl'className='w-40 rounded-full overflow-hidden container' />
           <div className=' py-10 text-xl mx-auto font-mono'> <span className='text-gray-500'>Mbesi</span> is a software engineer and an enthusiastic creative artist,<br></br>she enjoys building projects by coming up with fun solutions <br></br>to solve modern world problems through tech.<br></br>
-           Tech expresses her creativity through problem solving.
+           Her love for creativity has fostered her growth and journey in the tech space as she is always looking for ways to steer her creativity.
           <Contacts/>
           <div className='py-2 font-mono text-xs'>
           click to view
