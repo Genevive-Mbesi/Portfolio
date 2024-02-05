@@ -23,9 +23,9 @@ export default function Navbar() {
         <ul
           className={`${
             showMenu
-              ? "flex flex-col bg-gray-800 p-4 rounded-lg"
+              ? "flex flex-col bg-teal-800 p-4 rounded-lg"
               : "hidden"
-          } lg:flex lg:flex-row lg:items-center absolute top-12 right-4 text-s flex   mt-2`}
+          } lg:flex lg:flex-row lg:items-center absolute top-12 right-4 text-s pb-3 flex   mt-2`}
         >
           <li className=" lg:mb-0 lg:mr-10  ">
             <Link to="/proficiency">Proficiency</Link>
