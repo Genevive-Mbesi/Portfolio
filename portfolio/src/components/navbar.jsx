@@ -22,7 +22,7 @@ export default function Navbar() {
         </div>
         <ul
           className={`${
-            showMenu ? "flex flex-col" : "hidden"
+            showMenu ? "flex flex-col text-s font-semibold font-mono mb-4 lg:mb-0" : "hidden"
           } lg:flex flex-col lg:flex-row lg:items-center`}
         >
           <li className="mb-4 lg:mb-0 lg:mr-4">
