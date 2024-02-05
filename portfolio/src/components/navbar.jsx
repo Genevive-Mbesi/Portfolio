@@ -27,10 +27,10 @@ export default function Navbar() {
               : "hidden"
           } lg:flex lg:flex-row lg:items-center absolute top-12 right-4 text-s flex   mt-2`}
         >
-          <li className=" lg:mb-0 lg:mr-10  ">
+          <li className=" lg:mb-4 lg:mr-10  ">
             <Link to="/proficiency">Proficiency</Link>
           </li>
-          <li className=" lg:mb-0 lg:mr-10">
+          <li className=" lg:mb-4 lg:mr-10">
             <Link to="/projects">Projects</Link>
           </li>
           <li>
