@@ -15,15 +15,11 @@ export default function Navbar() {
           <h1 className="text-s font-semibold font-mono mb-4 lg:mb-0">
             <Link to="/">Home</Link>
           </h1>
-          <div className="lg:hidden ml-4">
-            {/* Button to toggle the menu on small screens */}
-            <button onClick={toggleMenu}>Toggle Menu</button>
-          </div>
         </div>
         <ul
           className={`${
-            showMenu ? "flex flex-col text-s font-semibold font-mono mb-4 lg:mb-0" : "hidden"
-          } lg:flex flex-col lg:flex-row lg:items-center`}
+            showMenu ? "flex flex-col" : "hidden"
+          } lg:flex flex-col lg:flex-row lg:items-center absolute top-0 right-4 mt-4 bg-gray-800 p-4 rounded-lg`}
         >
           <li className="mb-4 lg:mb-0 lg:mr-4">
             <Link to="/proficiency">Proficiency</Link>
@@ -35,6 +31,10 @@ export default function Navbar() {
             <Link to="/associations">Tags</Link>
           </li>
         </ul>
+        <div className="lg:hidden ml-4">
+          {/* Button to toggle the menu on small screens */}
+          <button onClick={toggleMenu}>Toggle Menu</button>
+        </div>
       </nav>
     </div>
   );
