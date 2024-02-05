@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import{AiOutlineMenu}from'react-icons/ai'
+import { AiOutlineMenu } from "react-icons/ai";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,13 +18,15 @@ export default function Navbar() {
           </h1>
           <div className="lg:hidden ml-auto">
             {/* Button to toggle the menu on small screens */}
-            <h1 onClick={toggleMenu}><AiOutlineMenu/></h1>
+            <h1 onClick={toggleMenu} className="cursor-pointer">
+              <AiOutlineMenu />
+            </h1>
           </div>
         </div>
         <ul
           className={`${
             showMenu ? "flex flex-col" : "hidden"
-          } lg:flex flex-col lg:flex-row lg:items-center absolute top-0 right-4 mt-4 bg-gray-800 p-4 rounded-lg`}
+          } lg:flex flex-col lg:flex-row lg:items-center absolute top-12 right-4 mt-2 bg-gray-800 p-4 rounded-lg`}
         >
           <li className="mb-4 lg:mb-0 lg:mr-4">
             <Link to="/proficiency">Proficiency</Link>
