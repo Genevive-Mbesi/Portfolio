@@ -18,7 +18,7 @@ export default function Navbar() {
           </h1>
           <div className="lg:hidden ml-auto">
             {/* Button to toggle the menu on small screens */}
-            <h1 onClick={toggleMenu}><AiOutlineM/></h1>
+            <h1 onClick={toggleMenu}><AiOutlineMenu/></h1>
           </div>
         </div>
         <ul
