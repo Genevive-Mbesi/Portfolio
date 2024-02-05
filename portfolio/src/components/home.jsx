@@ -3,6 +3,7 @@ import assets from '../assets/girl.jpg'
 import Contacts from './contacts';
 import {Link} from "react-router-dom";
 import Footer from './footer';
+import Navbar from './navbar';
 
 
 
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <div>
         <div className="container bg-slate-900 w-full mx-auto px-20 text-gray-100 p-10">
+          <Navbar/>
         <h1 className='font-bold font-mono md:text-5xl'>Genevive<br></br>Mbesi</h1>
           <div className='text-s'> 
           <img src={assets} alt ='girl'className='w-40 rounded-full overflow-hidden container' />
