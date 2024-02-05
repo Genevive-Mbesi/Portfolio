@@ -11,12 +11,14 @@ export default function Navbar() {
   return (
     <div className="container items-center justify-center mx-auto text-gray-100 text-s">
       <nav className="py-10 pl-4 lg:pl-0 flex flex-col lg:flex-row lg:justify-between">
-        <h1 className="text-s font-semibold font-mono mb-4 lg:mb-0">
-          <Link to="/">Home</Link>
-        </h1>
-        <div className="lg:hidden">
-          {/* Button to toggle the menu on small screens */}
-          <button onClick={toggleMenu}>Toggle Menu</button>
+        <div className="flex items-center">
+          <h1 className="text-s font-semibold font-mono mb-4 lg:mb-0">
+            <Link to="/">Home</Link>
+          </h1>
+          <div className="lg:hidden ml-4">
+            {/* Button to toggle the menu on small screens */}
+            <button onClick={toggleMenu}>Toggle Menu</button>
+          </div>
         </div>
         <ul
           className={`${
@@ -31,10 +33,6 @@ export default function Navbar() {
           </li>
           <li>
             <Link to="/associations">Tags</Link>
-          </li>
-          {/* Include "Home" link in the menu for smaller screens */}
-          <li className="mb-4 lg:hidden">
-            <Link to="/">Home</Link>
           </li>
         </ul>
       </nav>
