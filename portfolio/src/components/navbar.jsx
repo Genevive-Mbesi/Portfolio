@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import{AiOutlineMenu}from'react-icons/ai'
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -17,7 +18,7 @@ export default function Navbar() {
           </h1>
           <div className="lg:hidden ml-auto">
             {/* Button to toggle the menu on small screens */}
-            <button onClick={toggleMenu}>Toggle Menu</button>
+            <h1 onClick={toggleMenu}><AiOutlineM/></h1>
           </div>
         </div>
         <ul
