@@ -15,6 +15,10 @@ export default function Navbar() {
           <h1 className="text-s font-semibold font-mono mb-4 lg:mb-0">
             <Link to="/">Home</Link>
           </h1>
+          <div className="lg:hidden ml-auto">
+            {/* Button to toggle the menu on small screens */}
+            <button onClick={toggleMenu}>Toggle Menu</button>
+          </div>
         </div>
         <ul
           className={`${
@@ -31,10 +35,6 @@ export default function Navbar() {
             <Link to="/associations">Tags</Link>
           </li>
         </ul>
-        <div className="lg:hidden ml-4">
-          {/* Button to toggle the menu on small screens */}
-          <button onClick={toggleMenu}>Toggle Menu</button>
-        </div>
       </nav>
     </div>
   );
