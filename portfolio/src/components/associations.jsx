@@ -12,7 +12,7 @@ function Associations() {
                     <h1 className='section-link-card'>
                         <div><img src={moringa} alt ='Moringa School'></img></div>
                         <p>Moringa School</p>
-                        <p>Training : Moringa School<br></br> Software Engineering <br></br>Technical Skills:JavaScript, Python,
+                        <p>Software Engineering <br></br>Technical Skills:JavaScript, Python,
                          React,Flask,mySQL,<br></br>PostgreSQL,<br></br>Git,Html,CSS,Tailwind CSS and Bootsrap
                         <br></br>Soft Skills :Collaboration, Leadership, Effective communication.
                         </p>
