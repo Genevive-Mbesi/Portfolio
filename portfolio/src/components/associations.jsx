@@ -1,17 +1,27 @@
-import React from "react";
-import Moringa from '../assets/Moringa.png'
+import React from 'react'
+import moringa from '../assets/Moringa.png'
+import './base.css';
 
-export default function Associations() {
+
+function Projects() {
     return (
-<div className="px-20  mx-auto container  mx-auto font-mono text-gray-100 p-10"> 
-<div className=" flex items-center mr-10">
-    <div className="column-row ">
-    <img src={Moringa} alt ='Moringa Logo'className='motion-safe:animate-pulse w-40 rounded-full object-cover container   rounded-full shadow-2xl  p-3 '/>
-    <h3> Moringa School</h3>
-    <h4 className='text-xs'>Training : Moringa School<br></br> Course : Software Engineering <br></br>Technical Skills:JavaScript, Python, React,Flask,mySQL,PostgreSQL,<br></br>Git,Html,CSS,Tailwind CSS and Bootsrap<br></br>Soft Skills :Collaboration, Leadership, Effective communication.</h4>
-    </div>
-    </div>
-</div>
+        <>
 
+            <div className='sections-container'>
+                <div className='section-links  font-mono'>
+                    <h1 className='section-link-card'>
+                        <div><img src={moringa} alt ='Moringa School'></img></div>
+                        <p>Moringa School</p>
+                        <p>Training : Moringa School<br></br> Software Engineering <br></br>Technical Skills:JavaScript, Python,
+                         React,Flask,mySQL,<br></br>PostgreSQL,<br></br>Git,Html,CSS,Tailwind CSS and Bootsrap
+                        <br></br>Soft Skills :Collaboration, Leadership, Effective communication.
+                        </p>
+                        </h1>
+                        </div>
+            </div>
+        </>
     )
 }
+
+export default Projects
+                        
