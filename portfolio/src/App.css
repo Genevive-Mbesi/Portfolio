@@ -1,6 +1,7 @@
-.dp{
-  width: 100px;
-  border-radius: 50px; 
+.rounded-image {
+  border-radius: 50%;
+  max-width: 300px; /* Set your desired maximum width */
+  
 }
 .fade-appear,
 .fade-enter {
