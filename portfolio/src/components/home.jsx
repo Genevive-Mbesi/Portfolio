@@ -4,6 +4,8 @@ import Contacts from './contacts';
 import {Link} from "react-router-dom";
 import Footer from './footer';
 import Navbar from './navbar';
+import Projects from './projects';
+
 
 
 
@@ -28,6 +30,7 @@ export default function Home() {
         </div>
         </div>
         <div>
+          <Projects/>
       <Footer/>
     </div>
     </div>

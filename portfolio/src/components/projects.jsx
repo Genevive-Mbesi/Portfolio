@@ -11,7 +11,6 @@ import{AiFillGithub}from'react-icons/ai'
 function Projects() {
     return (
         <>
-
             <div className='sections-container'>
                 <div className='section-links  font-mono'>
                     <h1 className='section-link-card'>

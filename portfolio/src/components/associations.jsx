@@ -3,7 +3,7 @@ import moringa from '../assets/Moringa.png'
 import './base.css';
 
 
-function Projects() {
+function Associations() {
     return (
         <>
 
@@ -23,5 +23,5 @@ function Projects() {
     )
 }
 
-export default Projects
+export default Associations
                         
