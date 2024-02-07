@@ -3,7 +3,6 @@ import assets from '../assets/girl.jpg'
 import Contacts from './contacts';
 import {Link} from "react-router-dom";
 import Footer from './footer';
-import Navbar from './navbar';
 import Projects from './projects';
 import '../App.css';
 
@@ -15,7 +14,6 @@ export default function Home() {
   return (
     <div>
         <div className="container  w-full mx-auto px-20 text-gray-100 p-10">
-          <Navbar/>
         <h1 className='font-bold font-mono md:text-5xl'>Genevive<br></br>Mbesi</h1>
           <div className='text-s'> 
           <img src={assets} alt ='Avatar' className="rounded-image"/>

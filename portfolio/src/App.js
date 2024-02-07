@@ -6,6 +6,7 @@ import Proficiency from "./components/proficiency";
 import Projects from "./components/projects";
 import Associations from "./components/associations";
 import { Link } from "react-router-dom";
+import Navbar from './components/navbar';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <h1 className="text-s text-gray-100 font-semibold font-mono pt-16 pl-20 lg:mb-0 inline-block">
             <Link to="/">Genevive Mbesi</Link>
           </h1>
+          <Navbar/>
       <Routes>
         <Route
           path="/"
