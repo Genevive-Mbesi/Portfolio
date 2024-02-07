@@ -53,13 +53,18 @@ function Projects() {
                              </div>     
                         
                     </h1>
-                    <Link className='section-link-card' to='/issues'>
+                    <h1 className='section-link-card' to='/issues'>
                         <div><img src={portfolio} alt ='portfolio'></img></div>
                         <p>Personal Portfolio</p>
                         <p>
                     I created this portfolio specifically to showcase my work
                     , utilizing  <span className='text-gray-500'>React,Tailwind CSS </span> for its design.</p>
-                    </Link>
+                    <div  id='contactInfo' className='flex gap-5 text-3xl text-gray-100 pt-5' >
+                              <a href= 'https://github.com/Genevive-Mbesi/Portfolio'>
+                             <AiFillGithub/>
+                              </a>
+                             </div>    
+                    </h1>
                 </div>
             </div>
         </>
