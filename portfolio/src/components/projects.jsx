@@ -21,6 +21,12 @@ function Projects() {
                               <a href= 'https://github.com/Genevive-Mbesi/MbesiArt'>
                              <AiFillGithub/>
                               </a>
+                              <div className='py-2 font-mono text-xs'>
+                             click to view
+                             <a href= 'https://mbesiart.vercel.app'>
+                      <span className='text-gray-500'> Project</span>
+                        </a>
+                            </div>   
                              </div>   
                     </h1>
                     <h1 className='section-link-card'>
