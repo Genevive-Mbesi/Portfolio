@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='bg-teal-900 min-h-screen'>
       <h1 className="text-s text-gray-100 font-semibold font-mono pt-16 pl-20 lg:mb-0 inline-block">
-            <Link to="/">Genevive Mbesi</Link>
+            <Link to="/">Home</Link>
           </h1>
           <Navbar/>
       <Routes>
