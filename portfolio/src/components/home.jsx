@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
         <div className="container  w-full mx-auto px-20 text-gray-100 p-10">
-        <h1 className='font-bold font-mono md:text-5xl'>Genevive<br></br>Mbesi</h1>
+        <h1 className='font-bold font-mono md:text-5xl'>Home</h1>
           <div className='text-s'> 
           <img src={assets} alt ='Avatar' className="rounded-image"/>
           <div className=' py-10 text-xl mx-auto font-mono'> <span className='text-gray-500'>Mbesi</span> is a software engineer and an enthusiastic creative artist,<br></br>she enjoys building tech projects by coming up with fun solutions <br></br>to solve modern world problems.<br></br>
