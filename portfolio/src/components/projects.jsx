@@ -49,7 +49,7 @@ function Projects() {
                         <p>Personal Portfolio</p>
                         <p>
                     
-                    This portfolio was designed and developed using<span className='text-gray-500'>React,Tailwind CSS </span> for its design.</p>
+                    This portfolio was designed and developed using <span className='text-gray-500'>React,Tailwind CSS </span> for its design.</p>
                     <div  id='contactInfo' className='flex gap-5 text-3xl text-gray-100 pt-5' >
                               <a href= 'https://github.com/Genevive-Mbesi/Portfolio'>
                              <AiFillGithub/>
