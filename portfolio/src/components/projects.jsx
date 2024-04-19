@@ -2,7 +2,6 @@ import React from 'react'
 import portfolio from '../assets/portfolio.png'
 import art from '../assets/artheart.png'
 import rental from '../assets/rtm.png'
-import skillcode from '../assets/skill.png'
 import './base.css';
 import{AiFillGithub}from'react-icons/ai'
 
@@ -44,20 +43,7 @@ function Projects() {
                               </a>
                              </div>   
                     </h1>
-                    <h1 className='section-link-card'>
-                        <div><img src={skillcode} alt ='skillcode'></img></div>
-                        <p>Skill-Code</p>
-                        <p>SkillCode serves as<br></br> a simulated platform<br></br> wherein students<br></br> can evaluate <br></br>their skills <br></br>
-                        and mentors can <br></br>craft personalized <br></br>assessments <br></br>to evaluate <br></br>their students' <br></br>abilities effectively.<br></br>
-                        Having actively <br></br>participated <br></br> in the development of the frontend,<br></br>I used <br></br>
-                             <span className='text-gray-500'>Vite+React,TailwindCSS</span></p>
-                             <div  id='contactInfo' className='flex gap-5 text-3xl text-gray-100 pt-5' >
-                              <a href= 'https://github.com/Chisaina69/Skill-Code'>
-                             <AiFillGithub/>
-                              </a>
-                             </div>     
-                        
-                    </h1>
+                   
                     <h1 className='section-link-card' to='/issues'>
                         <div><img src={portfolio} alt ='portfolio'></img></div>
                         <p>Personal Portfolio</p>
