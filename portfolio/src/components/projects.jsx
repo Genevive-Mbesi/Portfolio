@@ -14,7 +14,7 @@ function Projects() {
                     <h1 className='section-link-card'>
                         <div><img src={art} alt ='art-heart'></img></div>
                         <p>Wall_art_heart</p>
-                        <p>The Wall Art Heart website is committed to presenting a curated selection of art services and products available for purchase.I developed the website using <span className='text-gray-500'>React </span>
+                        <p>The Wall Art Heart website is committed to presenting a curated selection of art services and products available for purchase.The website is  developed using <span className='text-gray-500'>React </span>
                              and styled with  <span className='text-gray-500'>Tailwind CSS </span>to ensure a seamless and visually appealing experience for customers.</p>
                              <div  id='contactInfo' className='flex gap-5 text-3xl text-gray-100 pt-5' >
                               <a href= 'https://github.com/Genevive-Mbesi/MbesiArt'>
@@ -34,7 +34,7 @@ function Projects() {
                         <p>Rental Management System is a powerful platform designed to help property owners
                             manage their rental properties efficiently,they can easily keep track of properties,tenants,and 
                             rental income,all in one place.
-                            Having actively participated in the development of the frontend,I used <span className='text-gray-500'>JavaScript
+                            Having developed the frontend the following technologies were used <span className='text-gray-500'>JavaScript
                             React (React Router, React Bootstrap, React Auth Kit)</span>
                         </p>
                         <div  id='contactInfo' className='flex gap-5 text-3xl text-gray-100 pt-5' >
@@ -48,8 +48,8 @@ function Projects() {
                         <div><img src={portfolio} alt ='portfolio'></img></div>
                         <p>Personal Portfolio</p>
                         <p>
-                    I developed and designed this portfolio specifically to showcase my work
-                    , utilizing  <span className='text-gray-500'>React,Tailwind CSS </span> for its design.</p>
+                    
+                    This portfolio was designed and developed using<span className='text-gray-500'>React,Tailwind CSS </span> for its design.</p>
                     <div  id='contactInfo' className='flex gap-5 text-3xl text-gray-100 pt-5' >
                               <a href= 'https://github.com/Genevive-Mbesi/Portfolio'>
                              <AiFillGithub/>
