@@ -26,3 +26,7 @@ transition: opacity 150ms linear;
   background-color: #0f172a; /* Replace with your desired color value for bg-slate-900 */
   
 }
+.projectcard {
+  padding-right:20%; /* Adjust the value as needed */
+}
+

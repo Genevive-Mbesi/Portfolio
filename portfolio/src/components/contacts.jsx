@@ -3,7 +3,7 @@ import{AiFillGithub,AiFillLinkedin,AiFillMail}from'react-icons/ai'
 
 export default function Contacts() {
     return ( 
-<div  id='contactInfo' className='flex gap-5 text-3xl text-gray-100 pt-5' >
+<div  id='contactInfo' className='flex gap-5 text-3xl text-amber-800 pt-5' >
           <a href= 'https://github.com/Genevive-Mbesi'>
           <AiFillGithub/>
           </a>

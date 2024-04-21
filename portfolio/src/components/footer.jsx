@@ -4,9 +4,9 @@ import {Link} from "react-router-dom";
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
-
+    
   return (
-    <footer className='text-gray-100 pt-10'>
+    <footer className='text-gray-100 bg-amber-950 pt-10'>
       <div id='footer' className="container mx-auto  flex items-center justify-center flex gap-5 text-3xl text-slate-100 pt-10">
           <a href= 'https://github.com/Genevive-Mbesi'>
           <AiFillGithub/>

@@ -5,15 +5,11 @@ import Home from "./components/home";
 import Proficiency from "./components/proficiency";
 import Projects from "./components/projects";
 import Associations from "./components/associations";
-import { Link } from "react-router-dom";
 import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className=' bg-teal-900 min-h-screen'>
-      <h1 className="text-s text-gray-100 font-semibold font-mono pt-16 pl-20 lg:mb-0 inline-block">
-            <Link to="/">Home</Link>
-          </h1>
+    <div className=' bg-rose-200 min-h-screen'>
           <Navbar/>
       <Routes>
         <Route
