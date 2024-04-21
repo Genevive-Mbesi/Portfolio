@@ -10,7 +10,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="container items-center justify-center mx-auto  font-mono text-gray-100  text-s">
+    <div className="container items-center justify-center mx-auto  font-mono text-gray-100   text-s">
       <nav className="py-5 pl-4 lg:pl-0 flex flex-col lg:flex-row lg:justify-between">
         <div className="flex items-center">
           <div className="lg:hidden lg:flex flex-col lg:items-center absolute top-8 right-4 mt-2">
