@@ -14,8 +14,8 @@ export default function Home() {
   <div>
     <div className=" flex flex-col min-h-screen px-30 bg-rose-200 text-gray-100 p-20">
     <div className="card lg:card-side justify-center items-center w-100 shadow-2xl">
-    <figure><img src={assets}alt="Album"className="w-full md:w-96 h-auto"/></figure>
-    <div className="card-body max-w-screen-lg w-full md:flex md:space-x-8 ">
+    <figure><img src={assets}alt="Album"className="w-96 h-96"/></figure>
+    <div className="card-body max-w-screen-lg flex flex-col w-full md:w-96 ">
     <h2 className="card-title text-amber-950 font-serif text-5xl font-bold">Genevive Mbesi</h2>
     <p className='text-2xl font-serif  text-amber-700'>Software Developer,UI/UX Designer</p>
     <Contacts/>
