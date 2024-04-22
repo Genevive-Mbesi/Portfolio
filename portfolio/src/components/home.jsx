@@ -20,8 +20,8 @@ export default function Home() {
     <div className="chat-bubble bg-rose-400 shadow-xl">
     <div className="chat chat-start">
     <div className='chat-bubble bg-rose-400 '>
-    <p className='text-gray-100 text-base text-xl'>
-      <span className='text-amber-950 text-2xl font-semibold '>Mbesi(she/her)</span><br/>
+    <p className='text-gray-100 text-base text-lg'>
+      <span className='text-amber-950 text-xl font-semibold '>Mbesi(she/her)</span><br/>
       is creative individual who is passionate about Software development,she aspires to create fun solutions to modern world problems through technology,
       To her,code to is an exciting opportunity to take her creativity to a world of limitless possibilities.
     </p>
