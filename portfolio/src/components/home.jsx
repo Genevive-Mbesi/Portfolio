@@ -12,7 +12,7 @@ import '../App.css';
 export default function Home() {
   return (
   <div>
-    <div className=" mx-auto px-30 bg-rose-200 text-gray-100 p-20">
+    <div className=" mx-auto min-h-screen px-30 bg-rose-200 text-gray-100 p-20">
     <div className="card lg:card-side  w-100 shadow-2xl">
     <figure><img src={assets}alt="Album"className="w-96 h-96"/></figure>
     <div className="card-body">
