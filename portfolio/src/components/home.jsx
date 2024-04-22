@@ -19,11 +19,12 @@ export default function Home() {
     <Contacts/>
     <div className="chat-bubble bg-rose-400 shadow-xl">
     <div className="chat chat-start">
-    <div className='chat-bubble bg-rose-400 '>
+    <div className='bg-rose-400 '>
     <p className='text-gray-100 text-base text-lg'>
-      <span className='text-amber-950 text-xl font-semibold '>Mbesi(she/her)</span><br/>
-      is creative individual who is passionate about Software development,she aspires to create fun solutions to modern world problems through technology,
-      To her,code to is an exciting opportunity to take her creativity to a world of limitless possibilities.
+      <span className='text-amber-950 font-semibold '>Mbesi(she/her)</span><br/>
+      is creative individual who is passionate about <br/>Software development,<br/>she aspires to create fun solutions<br/>
+       to modern world problems through technology,<br/>
+      To her,code to is an exciting opportunity to<br/>inspire her creativity to a world of limitless possibilities.
     </p>
     <div className="card-actions justify-end">
     <Link to='/projects'>
