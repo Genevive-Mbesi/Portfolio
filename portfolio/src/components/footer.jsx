@@ -27,7 +27,7 @@ const Footer = () => {
             </li>
             <li className='mr-10 list-disc'>
              <Link to='/associations'>
-             Tags
+             Badges
              </Link>
             </li>
             <li className='list-disc'>
