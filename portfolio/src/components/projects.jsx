@@ -11,7 +11,7 @@ function Projects() {
         <div className='section-links font-serif'>
           <div className="card-container">
             <div className="card w-100 bg-rose-900 shadow-xl">
-              <figure><img src={art} alt="Shoes" /></figure>
+              <figure><img src={art} alt="Art Heart" /></figure>
               <div className="card-body">
                 <h2 className="card-title text-neutral-100">
                   wall_art_heart
