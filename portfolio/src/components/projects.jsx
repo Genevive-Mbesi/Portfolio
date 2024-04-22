@@ -49,7 +49,7 @@ function Projects() {
                 <p className='text-neutral-100'>Rental Management System is a platform designed to help property owners
                             manage their rental properties efficiently,they can easily keep track of properties,tenants,and 
                             rental income,all in one place.
-                            Having developed the frontend the following technologies were used <span className='text-amber-700'>JavaScript
+                            Having developed the frontend, the following technologies were used <span className='text-amber-700'>JavaScript
                             React (React Router, React Bootstrap, React Auth Kit)</span>
                         </p>
                 <div className="card-actions justify-end"> 
@@ -62,6 +62,7 @@ function Projects() {
           </div>
         </div>
       </div>
+
     </>
   );
 }

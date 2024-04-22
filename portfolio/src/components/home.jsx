@@ -6,12 +6,27 @@ import Footer from './footer';
 import '../App.css';
 
 
-
-
-
 export default function Home() {
+  const containerStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'stretch',
+    height: '100%', 
+  
+  };
+  const bodyStyle = {
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    minHeight: '100vh',
+    alignItems:'center',
+    justifyContent:'center',
+  };
+  
   return (
-  <div>
+    
+  <div style={bodyStyle}>
+     <div style={containerStyle}>
     <div className=" flex flex-col min-h-screen px-30 bg-rose-200 text-gray-100 p-20">
     <div className="card lg:card-side justify-center items-center w-100 shadow-2xl">
     <figure><img src={assets}alt="Album"className="w-96 h-96"/></figure>
@@ -42,7 +57,7 @@ export default function Home() {
     </div>
    </div>
   </div>
-
+  </div>
  </div>
  <Footer/>
 </div>
