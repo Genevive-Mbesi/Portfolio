@@ -7,7 +7,7 @@ import rental from '../assets/rtm.png'
 function Projects() {
   return (
     <>
-      <div className='sections-container'>
+      <div className='min-h-screen sections-container'>
         <div className='section-links font-serif'>
           <div className="card-container">
             <div className="card w-100 bg-rose-900 shadow-xl">

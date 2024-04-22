@@ -2,7 +2,6 @@ import React from 'react'
 import assets from '../assets/shecodes.jpg'
 import Contacts from './contacts';
 import {Link} from "react-router-dom";
-import Footer from './footer';
 import '../App.css';
 
 export default function Home() {
@@ -46,7 +45,6 @@ export default function Home() {
   </div>
 
  </div>
- <Footer/>
 </div>
   )
 }
