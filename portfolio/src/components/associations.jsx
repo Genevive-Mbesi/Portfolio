@@ -6,20 +6,24 @@ import './base.css';
 function Associations() {
     return (
         <>
-
-            <div className='sections-container'>
-                <div className='section-links  font-mono'>
-                    <h1 className='section-link-card'>
-                        <div><img src={moringa} alt ='Moringa School'></img></div>
-                        <p>Moringa School</p>
-                        <p>Software Engineering <br></br>Technical Skills:JavaScript, Python,
-                         React,Flask,mySQL,<br></br>PostgreSQL,<br></br>Git,Html,CSS,Tailwind CSS and Bootsrap
-                        <br></br>Soft Skills :Collaboration, Leadership, Effective communication.
-                        </p>
-                        </h1>
-                        </div>
-            </div>
-        </>
+        <div className='sections-container'>
+          <div className='section-links font-serif'>
+            <div className="card-container">
+              <div className="card w-100 bg-rose-900 shadow-xl">
+                <figure><img src={moringa} alt="Moringa School" /></figure>
+                <div className="card-body">
+                  <h2 className="card-title text-neutral-100">
+                    Moringa School
+                    <div className='text-4xl'> 
+                      </div>
+                  </h2>
+                  <p className='text-amber-700'>Software Engineering Graduate</p>
+                </div>
+              </div>  
+              </div>
+          </div>
+        </div>
+      </>
     )
 }
 

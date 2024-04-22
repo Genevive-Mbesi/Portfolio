@@ -19,7 +19,7 @@ export default function Navbar() {
     backgroundColor: 'LightCoral',
     padding: '18px',
     fontFamily: 'Georgia,serif',
-    color: 'AntiqueWhite',
+    color: 'GhostWhite',
     cursor: 'pointer',
     alignItems:'center',
     justifyContent:'center',
@@ -61,7 +61,7 @@ export default function Navbar() {
           </li>
           <li style={headingStyle}>
             <Link to="/associations">
-              Tags
+              Badges
             </Link>
           </li>
           

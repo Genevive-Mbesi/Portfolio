@@ -23,15 +23,23 @@ export default function Home() {
     <div className="card-body">
     <h2 className="card-title text-amber-950 ">Mbesi(she/her)</h2>
     <p>is creative individual who is passionate about Software development,she aspires to create fun solutions to modern world problems through technology,
-      To her,code to is an exciting opportunity to take her creativity to a world of limitless possibilities
+      To her,code to is an exciting opportunity to take her creativity to a world of limitless possibilities.
     </p>
     <div className="card-actions justify-end">
     <Link to='/projects'>
     <button className='text-gray-100  btn bg-amber-950'> Projects</button>
     </Link>
     </div>
+    
     </div>
    </div>
+   <div className="card-actions justify-end">
+   <div className="chat  chat-start">
+  <div className="chat-bubble animate-pulse text-neutral-100 bg-rose-900">"While being a creative is different tag of war<br/> between my inner dreamer and 
+  critic<br/>I have grown to love the process <br/>it teaches me so much about the world and also myself."<br/><span className='text-amber-700'>Genevive Mbesi.</span>
+  </div>
+</div>
+    </div>
    </div>
   </div>
 
