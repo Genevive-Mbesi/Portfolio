@@ -1,5 +1,5 @@
 import React from 'react'
-import moringa from '../assets/Moringa.png'
+import moringa from '../assets/Moringa.jpeg'
 import './base.css';
 
 
