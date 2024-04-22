@@ -1,7 +1,6 @@
 import React from 'react';
 import './base.css';
 import { AiFillGithub } from 'react-icons/ai';
-import portfolio from '../assets/portfolio.png'
 import art from '../assets/artheart.png'
 import rental from '../assets/rtm.png'
 

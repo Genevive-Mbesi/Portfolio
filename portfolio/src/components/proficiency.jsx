@@ -11,6 +11,7 @@ import htmllogo from '../assets/htmllogo.png'
 import csslogo from '../assets/csslogo.png'
 
 
+
 export default function Proficiency() {
     return ( 
 
