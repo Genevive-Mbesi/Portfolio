@@ -10,7 +10,7 @@ export default function Home() {
   return (
     
   <div>
-    <div className=" flex flex-col min-h-screen px-30 bg-rose-100 text-gray-100 p-20">
+    <div className=" flex flex-col min-h-screen px-30 bg-rose-50 text-gray-100 p-20">
     <div className="card lg:card-side justify-center items-center w-100 shadow-2xl">
     <figure><img src={assets}alt="Album"className="w-96 h-96"/></figure>
     <div className="card-body max-w-screen-lg flex flex-col w-full md:w-96 ">
