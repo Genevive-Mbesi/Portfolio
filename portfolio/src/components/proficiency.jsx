@@ -13,9 +13,9 @@ import csslogo from '../assets/csslogo.png'
 export default function Proficiency() {
     return ( 
 
-<div className="container  font-mono mx-auto px-20 text-gray-100 p-10 ">
+<div className="container  font-mono mx-auto px-20 text-amber-700 p-10 ">
     
-<h1 className=" py-10 text-1xl mx-auto font-semibold">Programming Languages</h1>
+<h1 className=" py-10 text-1xl mx-auto font-semibold"></h1>
  <div className=" flex items-center mr-10">
     <div className="column-row">
     <img src={Python} alt ='Python'className='  mr-20 w-20 rounded-full object-cover container    rounded-full p-3 '/>
@@ -26,7 +26,7 @@ export default function Proficiency() {
     <h3 className="pl-1">Javascript</h3>
     </div>
  </div>
- <h1 className=" py-10 text-1xl mx-auto font-semibold">Web Development</h1>
+ <h1 className=" py-10 text-1xl mx-auto font-semibold"></h1>
 <div className=" flex items-center mr-10">
 <div className="column-row"> 
 <img src={reactlogo} alt ='React'className=' mr-20 w-20 object-cover  p-3' />
@@ -40,7 +40,7 @@ export default function Proficiency() {
 <img src={nextjs} alt ='next js'className='40 w-20  container  p-3' />
 <h3 className="pl-4">Next.js</h3>
     </div>
-</div><h1 className="py-10 text-1xl mx-auto font-semibold">Database Management</h1>
+</div><h1 className="py-10 text-1xl mx-auto font-semibold"></h1>
  <div className=" flex items-center mr-10">
  <div className="column-row">   
 <img src={mysql} alt ='mysql'className='mr-20 w-20 h-20 w-20 container p-3' />
@@ -51,7 +51,7 @@ export default function Proficiency() {
 <h3 className="pl-2">PostgreSQL</h3>
     </div>
 </div>
-<h1 className="py-10 text-1xl mx-auto font-semibold" >Front-End Technologies</h1>
+<h1 className="py-10 text-1xl mx-auto font-semibold" ></h1>
 <div className=" flex items-center mr-10">
 <div className="column-row">   
 <img src={htmllogo} alt ='html5'className=' mr-20 w-20 rounded-full object-cover rounded-full p-3' />

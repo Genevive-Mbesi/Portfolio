@@ -54,7 +54,7 @@ export default function Navbar() {
           </li>
           <li style={headingStyle}>
             <Link to="/proficiency">
-              Proficiency
+              Technologies
             </Link>
           </li>
           <li style={headingStyle}>
