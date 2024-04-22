@@ -32,7 +32,7 @@ const Footer = () => {
             </li>
             <li className='list-disc'>
              <Link to='/proficiency'>
-             Proficiency
+             Technologies
              </Link>
             </li>
         </ul>
