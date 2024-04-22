@@ -9,7 +9,7 @@ import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className='bg-fuchsia-50 min-h-screen'>
+    <div className=' bg-fuchsia-50 min-h-screen'>
           <Navbar/>
       <Routes>
         <Route

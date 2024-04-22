@@ -16,7 +16,7 @@ export default function Navbar() {
     alignItems:'center',
   };
   const headingStyle = {
-    backgroundColor: 'LightCoral',
+    backgroundColor:'LightCoral',
     padding: '18px',
     fontFamily: 'Georgia,serif',
     color: 'GhostWhite',
@@ -25,8 +25,6 @@ export default function Navbar() {
     justifyContent:'center',
   };
 
-
-  
   return (
     <div style={headingStyle}  >
       <nav style={navContainer} >
@@ -63,8 +61,7 @@ export default function Navbar() {
             <Link to="/associations">
               Badges
             </Link>
-          </li>
-          
+          </li> 
         </ul>
       </nav>
     </div>
