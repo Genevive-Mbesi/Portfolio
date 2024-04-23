@@ -19,7 +19,7 @@ export default function Navbar() {
     backgroundColor:'LightCoral',
     padding: '18px',
     fontFamily: 'Georgia,serif',
-    color: 'GhostWhite',
+    color: 'LavenderBlush',
     cursor: 'pointer',
     alignItems:'center',
     justifyContent:'center',
@@ -29,7 +29,7 @@ export default function Navbar() {
     <div style={headingStyle}  >
       <nav style={navContainer} >
         <div className="flex items-center">
-          <div className="lg:hidden lg:flex flex-col lg:items-centerlg:items-center absolute top-8 right-4 mt-2 ">
+          <div className="lg:hidden text-rose-950 lg:flex flex-col lg:items-centerlg:items-center absolute top-8 right-4 mt-2 ">
             <h1 onClick={toggleMenu} className="cursor-pointer">
               <AiOutlineMenu />
             </h1>

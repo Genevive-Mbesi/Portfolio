@@ -46,7 +46,7 @@ function Projects() {
                 </h2>
                 <p className='text-amber-700'>Website Portfolio</p>
                 <p className='text-neutral-100'>This website is  developed using <span className='text-amber-700'>React </span>
-                and styled with  <span className='text-amber-700'>Tailwind CSS </span>to ensure a seamless and visually appealing experience for customers.</p>
+                and styled with  <span className='text-amber-700'>Tailwind CSS </span>to ensure a seamless and visually appealing experience for users.</p>
                 <div className="card-actions justify-end">
                     <a href= 'https://mbesi.vercel.app'> 
                     <div className="badge badge-outline text-neutral-100">View</div>
