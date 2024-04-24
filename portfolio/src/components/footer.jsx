@@ -8,14 +8,14 @@ const Footer = () => {
   return (
     <footer className='text-gray-100 bg-rose-950 mt-10 pt-10'>
       <div id='footer' className="container mx-auto  flex items-center justify-center flex gap-5 text-3xl text-slate-100 pt-10">
-          <a href= 'https://github.com/Genevive-Mbesi'>
-          <AiFillGithub/>
-          </a>
-          <a href='https://www.linkedin.com/in/genevive-mbesi-5a5a98224/'>
-          <AiFillLinkedin/>
-          </a>
-          <a href='mailto:genmbesi@gmail.com'>
-          <AiFillMail/>
+         <a href= 'https://github.com/Genevive-Mbesi'>
+           <AiFillGithub/>
+           </a>
+           <a href='https://www.linkedin.com/in/genevive-mbesi-5a5a98224/'>
+           <AiFillLinkedin/>
+           </a>
+           <a href='mailto:genmbesi@gmail.com'>
+           <AiFillMail/>
           </a>
       </div>
       <div>
@@ -27,7 +27,7 @@ const Footer = () => {
             </li>
             <li className='mr-10 list-disc'>
              <Link to='/associations'>
-             Badges
+              Badges
              </Link>
             </li>
             <li className='list-disc'>
