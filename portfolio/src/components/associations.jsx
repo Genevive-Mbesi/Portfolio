@@ -1,5 +1,4 @@
 import React from 'react'
-import moringa from '../assets/Moringa.jpeg'
 import './base.css';
 
 
@@ -10,7 +9,7 @@ function Associations() {
           <div className='section-links font-serif'>
             <div className="card-container">
               <div className="card w-100 bg-rose-900 shadow-xl">
-                <figure><img src={moringa} alt="Moringa School" /></figure>
+                
                 <div className="card-body">
                   <h2 className="card-title text-neutral-100">
                     Moringa School
