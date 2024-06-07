@@ -12,7 +12,7 @@ export default function Home() {
           <figure>
             <img src={assets} alt="Album" className="w-96 h-96" />
           </figure>
-          <div className="card-body max-w-screen-lg flex flex-col w-full md:w-96 ">
+          <div className="card-body">
             <h2 className="card-title text-amber-950 font-serif text-5xl font-bold">
               Genevive Mbesi
             </h2>
@@ -20,10 +20,18 @@ export default function Home() {
               Software Developer,UI/UX Designer
             </p>
             <Contacts />
-            <div className="chat-bubble bg-rose-400 shadow-xl">
-              <div className="chat chat-start">
-                <div className="bg-rose-400 ">
-                  <p className="text-gray-100 text-base text-lg">
+            <div className="card-container">
+            <div className="card w-100 bg-rose-400 shadow-xl">
+              <div className="card-body">
+                <h2 className="card-title text-neutral-100">
+                  Portfolio
+                  <div className="text-4xl">
+                    <a href="https://github.com/Genevive-Mbesi/Portfolio">
+                    
+                    </a>
+                  </div>
+                </h2>
+                <p className="text-gray-100 text-base text-lg">
                     <span className="text-amber-950 font-semibold ">
                       Mbesi(she/her)
                     </span>
@@ -48,11 +56,17 @@ export default function Home() {
                       </button>
                     </Link>
                   </div>
+              </div>
+            </div>
+          </div>
+            <div className="card-container bg-rose-400 shadow-xl">
+              <div className="card w-100"> 
                 </div>
               </div>
             </div>
             <div className="card-actions justify-end">
-              <div className="chat  chat-start">
+              
+              <div className="chat justify-end chat-start">
                 <div className="chat-bubble animate-pulse text-neutral-100 bg-rose-900">
                   "While code has been a tag of war
                   <br /> between my creativity and inner critic
@@ -66,6 +80,5 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
