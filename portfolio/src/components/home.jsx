@@ -65,7 +65,6 @@ export default function Home() {
               </div>
             </div>
             <div className="card-actions justify-end">
-              
               <div className="chat justify-end chat-start">
                 <div className="chat-bubble animate-pulse text-neutral-100 bg-rose-900">
                   "While code has been a tag of war
