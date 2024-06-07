@@ -24,10 +24,9 @@ export default function Home() {
             <div className="card w-100 bg-rose-400 shadow-xl">
               <div className="card-body">
                 <h2 className="card-title text-neutral-100">
-                  Portfolio
+                  About
                   <div className="text-4xl">
                     <a href="https://github.com/Genevive-Mbesi/Portfolio">
-                    
                     </a>
                   </div>
                 </h2>
