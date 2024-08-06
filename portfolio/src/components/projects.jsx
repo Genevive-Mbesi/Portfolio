@@ -4,6 +4,7 @@ import { AiFillGithub } from "react-icons/ai";
 import art from "../assets/artheart.png";
 import rental from "../assets/rtm.png";
 import portfolio from "../assets/Portfolio.jpeg";
+import commerce from "../assets/commerce.jpeg";
 
 function Projects() {
   return (
@@ -36,6 +37,40 @@ function Projects() {
                 </p>
                 <div className="card-actions justify-end">
                   <a href="https://mbesiart.vercel.app">
+                    <div className="badge badge-outline text-neutral-100">
+                      View
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card-container">
+            <div className="card w-100 bg-rose-900 shadow-xl">
+              <figure>
+                <img src={commerce} alt="commerce" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title text-neutral-100">
+                  E- commerce platform
+                  <div className="text-4xl">
+                    <a href="https://github.com/Genevive-Mbesi/commerce">
+                      <AiFillGithub />
+                    </a>
+                  </div>
+                </h2>
+                <p className="text-amber-700">e-commerce website</p>
+                <p className="text-neutral-100">
+                Full-stack e-commerce application. Features include admin authentication, product listings, secure payment processing with Stripe, order management, 
+                and a responsive design to ensure a seamless shopping experience across all devices.
+                  This website is developed using{" "}
+                  <span className="text-amber-700">Next.js(TypeScript) </span>
+                  and styled with{" "}
+                  <span className="text-amber-700">Tailwind CSS and Shadcn. </span>
+                  <span className="text-amber-700">Prisma</span> for Database Mangement.
+                </p>
+                <div className="card-actions justify-end">
+                  <a href="https://mbesi.vercel.app">
                     <div className="badge badge-outline text-neutral-100">
                       View
                     </div>
