@@ -70,7 +70,7 @@ function Projects() {
                   <span className="text-amber-700">Prisma</span> for Database Mangement.
                 </p>
                 <div className="card-actions justify-end">
-                  <a href="https://mbesi.vercel.app">
+                  <a href="https://mbesi-commerce.onrender.com/">
                     <div className="badge badge-outline text-neutral-100">
                       View
                     </div>
