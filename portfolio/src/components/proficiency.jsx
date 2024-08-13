@@ -9,6 +9,9 @@ import tailwind from "../assets/Tailwind CSS.png";
 import mysql from "../assets/mysql.png";
 import htmllogo from "../assets/htmllogo.png";
 import csslogo from "../assets/csslogo.png";
+import Prisma from "../assets/Prisma.png"
+import TypeScript from "../assets/TypeScript.png"
+
 
 export default function Proficiency() {
   return (
@@ -26,9 +29,17 @@ export default function Proficiency() {
           <img
             src={javascript}
             alt="Javascript"
-            className="w-20 rounded-full object-cover h-20 w-20 container  rounded-full p-3"
+            className="w-20 rounded-full object-cover h-20 w-20 container mr-20 rounded-full p-3"
           />
           <h3 className="pl-1">Javascript</h3>
+        </div>
+        <div className="column-row">
+          <img
+            src={TypeScript}
+            alt="TypeScript"
+            className="w-20 rounded-full object-cover h-20 w-20 container  rounded-full p-3"
+          />
+          <h3 className="pl-1">TypeScript</h3>
         </div>
       </div>
       <div className=" flex items-center mr-10">
@@ -69,6 +80,14 @@ export default function Proficiency() {
             className="mr-20 w-20 object-cover p-3"
           />
           <h3 className="pl-2">PostgreSQL</h3>
+        </div>
+        <div className="column-row">
+          <img
+            src={Prisma}
+            alt="Prisma"
+            className="mr-20 w-20 object-cover p-3"
+          />
+          <h3 className="pl-2">Prisma</h3>
         </div>
       </div>
 
