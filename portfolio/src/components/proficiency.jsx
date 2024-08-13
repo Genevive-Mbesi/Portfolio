@@ -77,7 +77,7 @@ export default function Proficiency() {
           <img
             src={postgres}
             alt="Postgres"
-            className="mr-20 w-20 object-cover p-3"
+            className="mr-20 w-20 object-cover p-3 mr-10"
           />
           <h3 className="pl-2">PostgreSQL</h3>
         </div>
