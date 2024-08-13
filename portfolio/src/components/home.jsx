@@ -14,7 +14,7 @@ export default function Home() {
             <img src={assets} alt="Album" className="w-96 h-96" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-amber-950 font-serif text-5xl font-bold">
+            <h2 className="card-title text-amber-950 font-serif p-4  text-5xl font-bold">
               Genevive Mbesi
             </h2>
             <p className="text-2xl font-serif  text-amber-700">
