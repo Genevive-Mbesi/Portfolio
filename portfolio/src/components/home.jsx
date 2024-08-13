@@ -3,6 +3,7 @@ import assets from "../assets/shecodes.jpg";
 import Contacts from "./contacts";
 import { Link } from "react-router-dom";
 import "../App.css";
+import Projects from"./projects";
 
 export default function Home() {
   return (
@@ -77,6 +78,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div>
+          <Projects />
+        </div>
       </div>
+      
   );
 }

@@ -9,10 +9,10 @@ import commerce from "../assets/commerce.jpeg";
 function Projects() {
   return (
     <>
-      <div className="min-h-screen mt-16 sections-container">
-        <div className="section-links font-serif">
+      <div className="min-h-screen mt-16 flex items-center justify-center">
+        <div className="sections-container max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="card-container">
-            <div className="card w-100 bg-rose-900 shadow-xl">
+            <div className="card w-full bg-rose-900 shadow-xl">
               <figure>
                 <img src={art} alt="Art Heart" />
               </figure>
@@ -46,7 +46,7 @@ function Projects() {
             </div>
           </div>
           <div className="card-container">
-            <div className="card w-100 bg-rose-900 shadow-xl">
+            <div className="card w-full bg-rose-900 shadow-xl">
               <figure>
                 <img src={commerce} alt="commerce" />
               </figure>
@@ -80,7 +80,7 @@ function Projects() {
             </div>
           </div>
           <div className="card-container">
-            <div className="card w-100 bg-rose-900 shadow-xl">
+            <div className="card w-full bg-rose-900 shadow-xl">
               <figure>
                 <img src={portfolio} alt="Portfolio" />
               </figure>
@@ -112,7 +112,7 @@ function Projects() {
             </div>
           </div>
           <div className="card-container">
-            <div className="card w-100 bg-rose-900 shadow-xl">
+            <div className="card w-full bg-rose-900 shadow-xl">
               <figure>
                 <img src={rental} alt="Rental Management System" />
               </figure>
