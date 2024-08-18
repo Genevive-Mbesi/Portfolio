@@ -1,7 +1,7 @@
 import React from "react";
 import "./base.css";
 import { AiFillGithub } from "react-icons/ai";
-import art from "../assets/artheart.png";
+import art from "../assets/artheart.jpeg";
 import rental from "../assets/rtm.png";
 import portfolio from "../assets/Portfolio.jpeg";
 import commerce from "../assets/commerce.jpeg";
