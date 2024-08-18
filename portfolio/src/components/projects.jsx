@@ -52,7 +52,7 @@ function Projects() {
               </figure>
               <div className="card-body">
                 <h2 className="card-title text-neutral-100">
-                  E- commerce platform
+                  e- commerce platform
                   <div className="text-4xl">
                     <a href="https://github.com/Genevive-Mbesi/commerce">
                       <AiFillGithub />
