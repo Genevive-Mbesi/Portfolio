@@ -66,7 +66,7 @@ function Projects() {
                   This website is developed using{" "}
                   <span className="text-amber-700">Next.js(TypeScript) </span>
                   and styled with{" "}
-                  <span className="text-amber-700">Tailwind CSS and Shadcn. </span>
+                  <span className="text-amber-700">Tailwind CSS and ShadCDN. </span>
                   <span className="text-amber-700">Prisma</span> for Database Mangement.
                 </p>
                 <div className="card-actions justify-end">
