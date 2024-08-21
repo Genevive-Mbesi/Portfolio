@@ -77,16 +77,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="card lg:card-side justify-center items-center w-100 ">
-          <p className="text-2xl font-serif  text-5xl font-bold text-amber-950 pt-24">
-              PROJECTS
-            </p>
-            
+          <div className=" justify-center w-100 ">
+          <div className="card-body" >
+          <p className="text-2xl font-serif  text-amber-700">   
+            </p> 
+          <Projects /> 
             </div>
-        </div>
-        
-        <div>
-          <Projects />
+            </div>
         </div>
       </div>
       
