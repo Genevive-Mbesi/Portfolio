@@ -77,9 +77,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" justify-center w-100 ">
+          <div className=" justify-center w-100  ">
           <div className="card-body" >
-          <p className="text-2xl font-serif  text-amber-700">   
+          <p className="  pt-16 flex items-center underline text-2xl justify-center font-serif  text-amber-700">
+               Core Projects
             </p> 
           <Projects /> 
             </div>
