@@ -54,13 +54,13 @@ const blogPosts = [
       
        <br/><br/>
        <h2><strong>React vs Next.js</strong></h2><br/>
-       <h3><strong>Routing</strong></h3><br/>
+       <h3><strong>Routing</strong></h3>
        <h3> React requires External Packages such as React Router installation to configure routes.<br/>Next.js uses a file based routing system each folder in the App System becomes a route and the folder names become the route path.</h3>
        <br/>
-       <h3><strong>Configuration</strong></h3><br/>
+       <h3><strong>Configuration</strong></h3>
        <h3> React requires manual configuration. <br/>Next.js automates most processes allowing developers to only focus on the application logic.</h3>
        <br/>
-       <h3><strong>Rendering</strong></h3><br/>
+       <h3><strong>Rendering</strong></h3>
        <h3> React uses client side rendering <br/>Next.js uses both server-side rendering and client-side rendering.</h3>
        <br/>
        <h3><strong>Note: Server-side rendering enables easy crawling and indexing hence improves SEO.</strong></h3><br/>
