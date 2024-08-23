@@ -7,6 +7,7 @@ import Projects from "./components/projects";
 import Associations from "./components/associations";
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import BlogPostForm from "./components/blog";
 
 function App() {
   return (
@@ -56,6 +57,20 @@ function App() {
           }
         />
         <Route
+          path="/blog"
+          element={
+            <TransitionGroup>
+              <CSSTransition
+                key="blog"
+                timeout={450}
+                classNames="fade"
+              >
+                <BlogPostForm />
+              </CSSTransition>
+            </TransitionGroup>
+          }
+        />
+        <Route
           path="/associations"
           element={
             <TransitionGroup>
@@ -69,6 +84,7 @@ function App() {
             </TransitionGroup>
           }
         />
+        
       </Routes>
       <Footer/>
     </div>

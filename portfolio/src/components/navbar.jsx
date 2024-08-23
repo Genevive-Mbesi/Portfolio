@@ -62,6 +62,11 @@ export default function Navbar() {
               Badges
             </Link>
           </li> 
+          <li style={headingStyle}>
+            <Link to="/blog">
+              Insights
+            </Link>
+          </li> 
         </ul>
       </nav>
     </div>
