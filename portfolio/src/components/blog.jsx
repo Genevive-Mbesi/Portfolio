@@ -5,8 +5,8 @@ import "react-quill/dist/quill.snow.css";
 const blogPosts = [
   {
     id: 1,
-    title: "Design Cycle",
-    subtitle: "Understanding the Design Process",
+    title: "UI Design",
+    subtitle: "Streamlining The Design Cycle",
     content: `
       
       <h2><strong>1. Prioritize Functionality</strong></h2>
