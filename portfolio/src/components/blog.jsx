@@ -10,12 +10,10 @@ const blogPosts = [
     content: `
       
       <h2><strong>Prioritize Functionality</strong></h2>
-      <br/>
       <h3>Refrain from incorporating designs and color at the initial stage instead implement your functionalities.This will ease 
       your mind and imagination from doing all the heavy lifting.</h3>
       <br/>
       <h2><strong>Choose a Personality</strong></h2>
-       <br/>
       <h3>Define a fixed set of shades upfront that you can choose from as you work, most projects require at least five shades per color.<br/>
       <br/><strong>Choose a base color first <br/></strong>This is the mid point, the lighter and darker shades are based from this.<br/>
        <br/><strong>Note: Limit your choices, when limited to a set of options that are noticeably different picking the best ones is easy.</strong>
@@ -25,7 +23,7 @@ const blogPosts = [
         <br/><strong>Note: Trust your eyes not the number.</strong>
       </h3>
       <br/>
-      <h2><strong>Separate Visual Hierarchy from document hierarchy </strong></h2><br/>
+      <h2><strong>Separate Visual Hierarchy from document hierarchy </strong></h2>
      <h3>Deliberately de-emphasize secondary and Tertiary Information, here size isn't everything try
      using fontweight and color to achieve this.</h3><br/>
       <h3>Use darker colors  for primary content, greyish colors for secondary content and lighter colors for tertiary content.</h3><br/>
@@ -33,7 +31,6 @@ const blogPosts = [
       <br/>
       <br/>
       <h2><strong>Be Creative</strong></h2>
-      <br/>
        <h3>Break into sections, use multiple columns, add supporting text and colorful icons.<br/>Introduce hierarchy in columns, add images if it makes sense and also use cards and button like square designs. </h3>
  <br/>
  <strong>Note: Systemize everything, the less you shall need to second guess your own decisions</strong>.
