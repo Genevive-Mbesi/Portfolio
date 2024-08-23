@@ -55,7 +55,14 @@ export default function Home() {
                         Projects
                       </button>
                     </Link>
+                    <Link to="/blog">
+                      <button className="text-gray-100  btn bg-amber-950">
+                        {" "}
+                        Insights
+                      </button>
+                    </Link>
                   </div>
+                  
               </div>
             </div>
           </div>
@@ -74,6 +81,7 @@ export default function Home() {
                   <br />
                   <span className="text-amber-700">Genevive Mbesi.</span>
                 </div>
+                
               </div>
             </div>
           </div>
