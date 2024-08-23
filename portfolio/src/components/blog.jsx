@@ -40,14 +40,33 @@ const blogPosts = [
   
     `,
   },
-//   {
-//     id: 2,
-//     title: "Second Post",
-//     subtitle: "Exploring New Features",
-//     content: `
-//       <p>This is the content of the second post.</p>
-//     `,
-//   },
+  {
+    id: 2,
+    title: "The React-Next.js Continuum",
+    subtitle: "Exploring React and Next.js",
+    content: `
+      <h2><strong>React</strong></h2><br/>
+      <h3> React is a front-end library developed by Facebook for building user interfaces, particularly single-page applications where you need a highly interactive and responsive UI.
+       It allows developers to create reusable UI components.</h3><br/>
+       <h2><strong>Next.js</strong></h2><br/> 
+       <h3>Next.js is a framework built on top of React. It enhances React by adding server-side rendering (SSR), static site generation (SSG), 
+       and other features like API routes, automatic code splitting, and optimized performance.</h3>
+      
+       <br/><br/>
+       <h2><strong>React vs Next.js</strong></h2><br/>
+       <h3><strong>Routing</strong></h3><br/>
+       <h3> React requires External Packages such as React Router installation to configure routes.<br/>Next.js uses a file based routing system each folder in the App System becomes a route and the folder names become the route path.</h3>
+       <br/>
+       <h3><strong>Configuration</strong></h3><br/>
+       <h3> React requires manual configuration. <br/>Next.js automates most processes allowing developers to only focus on the application logic.</h3>
+       <br/>
+       <h3><strong>Rendering</strong></h3><br/>
+       <h3> React uses client side rendering <br/>Next.js uses both server-side rendering and client-side rendering.</h3>
+       <br/>
+       <h3><strong>Note: Server-side rendering enables easy crawling and indexing hence improves SEO.</strong></h3><br/>
+       <br/>
+    `,
+  },
 ];
 
 function BlogManager() {
