@@ -58,7 +58,7 @@ const blogPosts = [
        <h3> React requires manual configuration. <br/>Next.js automates most processes allowing developers to only focus on the application logic.</h3>
        <br/>
        <h3><strong>Rendering</strong></h3>
-       <h3> React uses client side rendering <br/>Next.js uses both server-side rendering and client-side rendering.</h3>
+       <h3> React uses client side rendering. <br/>Next.js uses both server-side rendering and client-side rendering.</h3>
        <br/>
        <h3><strong>Note: Server-side rendering enables easy crawling and indexing hence improves SEO.</strong></h3><br/>
        <br/>
