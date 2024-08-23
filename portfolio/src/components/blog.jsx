@@ -57,7 +57,7 @@ function BlogManager() {
         <div key={post.id} className="mb-8">
           <input
             type="text"
-            className="shadow-2xl appearance-none border rounded w-full py-2 px-3 rounded-lg bg-fuchsia-50 text-2xl font-serif text-amber-800 text-center leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow-2xl appearance-none border rounded w-full py-2 px-3 rounded-lg bg-fuchsia-50 text-2xl font-serif text-amber-900 text-center leading-tight focus:outline-none focus:shadow-outline"
             value={post.title}
             readOnly
             placeholder="Title"
@@ -73,7 +73,7 @@ function BlogManager() {
             <ReactQuill
               value={post.content}
               readOnly
-              className="shadow-2xl w-full mt-5 text-amber-800 bg-fuchsia-50 rounded-lg font-serif focus:outline-none focus:shadow-outline"
+              className="shadow-2xl w-full mt-5 text-amber-900 bg-fuchsia-50 rounded-lg font-serif focus:outline-none focus:shadow-outline"
               theme="snow"
               modules={{ toolbar: false }} 
             />
