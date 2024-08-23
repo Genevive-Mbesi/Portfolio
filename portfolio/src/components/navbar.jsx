@@ -53,18 +53,13 @@ export default function Navbar() {
             </Link>
           </li>
           <li style={headingStyle}>
-            <Link to="/proficiency">
-              Technologies
-            </Link>
-          </li>
-          <li style={headingStyle}>
-            <Link to="/associations">
-              Badges
+            <Link to="/blog">
+              Insights
             </Link>
           </li> 
           <li style={headingStyle}>
-            <Link to="/blog">
-              Insights
+            <Link to="/associations">
+              Badges
             </Link>
           </li> 
         </ul>
