@@ -18,7 +18,7 @@ const blogPosts = [
        <br/>
       <h3>Define a fixed set of shades upfront that you can choose from as you work, most projects require at least five shades per color.<br/>
       <br/><strong>Choose a base color first <br/></strong>This is the mid point, the lighter and darker shades are based from this.<br/>
-       <br/><strong>Note: Limit your choices, when limited to a set of options that are noticeably different, picking the best ones is easy.</strong>
+       <br/><strong>Note: Limit your choices, when limited to a set of options that are noticeably different picking the best ones is easy.</strong>
        <br/>
         <br><strong>Define the edges <br/></strong>The darkest shades are usually reserved for for texts and the lighter shades
          are used for backgrounds in an element, then you can fill in the gaps with the shades in between.<br/>
