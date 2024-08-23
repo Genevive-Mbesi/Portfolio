@@ -29,7 +29,7 @@ const blogPosts = [
      <h3>Deliberately de-emphasize secondary and Tertiary Information, here size isn't everything try
      using fontweight and color to achieve this.</h3><br/>
       <h3>Use darker colors  for primary content, greyish colors for secondary content and lighter colors for tertiary content.</h3><br/>
-     <strong>Note: Making the text closer to the background helps create hierarchy.</strong>
+     <strong>Note: Making the text color closer to the background helps create hierarchy.</strong>
       <br/>
       <br/>
       <h2><strong>Be Creative</strong></h2>
