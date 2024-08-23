@@ -36,7 +36,7 @@ const blogPosts = [
       <br/>
        <h3>Break into sections, use multiple columns, add supporting text and colorful icons.<br/>Introduce hierarchy in columns, add images if it makes sense and also use cards and button like square designs. </h3>
  <br/>
- <strong>Note: Systemize everything the less you shall need to second guess your own decisions</strong>.
+ <strong>Note: Systemize everything, the less you shall need to second guess your own decisions</strong>.
   
     `,
   },
