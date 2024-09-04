@@ -38,7 +38,7 @@ function Projects() {
                 <div className="card-actions justify-end">
                   <a href="https://mbesiart.vercel.app">
                     <div className="badge badge-outline text-neutral-100">
-                      View
+                      View Live Site
                     </div>
                   </a>
                 </div>
@@ -72,7 +72,7 @@ function Projects() {
                 <div className="card-actions justify-end">
                   <a href="https://mbesi-e-commerce.onrender.com">
                     <div className="badge badge-outline text-neutral-100">
-                      View
+                      View Live Site
                     </div>
                   </a>
                 </div>
@@ -104,7 +104,7 @@ function Projects() {
                 <div className="card-actions justify-end">
                   <a href="https://mbesi.vercel.app">
                     <div className="badge badge-outline text-neutral-100">
-                      View
+                      View Live Site
                     </div>
                   </a>
                 </div>
