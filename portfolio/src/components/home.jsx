@@ -17,8 +17,8 @@ export default function Home() {
             <h2 className="card-title text-amber-950 font-serif p-4  text-5xl font-bold">
               Genevive Mbesi
             </h2>
-            <p className="text-2xl font-serif  text-amber-700">
-              Software Developer,UI/UX Designer
+            <p className="text-3xl font-serif  text-amber-700">
+              Software Developer
             </p>
             <Contacts />
             <div className="card-container">
