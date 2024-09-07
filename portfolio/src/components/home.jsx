@@ -18,7 +18,7 @@ export default function Home() {
               Genevive Mbesi
             </h2>
             <p className="text-3xl font-serif  text-amber-700">
-              Software Developer
+              Software Engineer
             </p>
             <Contacts />
             <div className="card-container">
