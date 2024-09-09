@@ -36,7 +36,7 @@ function Projects() {
                   a seamless and visually appealing experience for customers.
                 </p>
                 <div className="card-actions justify-end">
-                  <a href="https://mbesiart.vercel.app">
+                  <a href="https://arthubke.vercel.app">
                     <div className="badge badge-outline text-neutral-100">
                       View Live Site
                     </div>
