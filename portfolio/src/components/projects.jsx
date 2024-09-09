@@ -14,11 +14,11 @@ function Projects() {
           <div className="card-container">
             <div className="card w-full bg-rose-950 shadow-xl">
               <figure>
-                <img src={art} alt="Art Heart" />
+                <img src={art} alt="Art Hub" />
               </figure>
               <div className="card-body">
                 <h2 className="card-title text-neutral-100">
-                  wall_art_heart
+                  ArtHub_Ke
                   <div className="text-4xl">
                     <a href="https://github.com/Genevive-Mbesi/MbesiArt">
                       <AiFillGithub />
@@ -27,7 +27,7 @@ function Projects() {
                 </h2>
                 <p className="text-amber-700">Product Catalog</p>
                 <p className="text-neutral-100">
-                  The Wall Art Heart website is committed to presenting a
+                   ArtHub_Ke website is committed to presenting a
                   curated selection of art services and products available for
                   purchase.The website is developed using{" "}
                   <span className="text-amber-700">React </span>
