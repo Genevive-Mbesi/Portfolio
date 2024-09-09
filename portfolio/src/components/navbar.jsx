@@ -28,8 +28,8 @@ export default function Navbar() {
   return (
     <div style={headingStyle} className="bg-rose-950" >
       <nav style={navContainer}  >
-        <div className="flex items-center p-3">
-          <div className="lg:hidden text-rose-950 lg:flex  flex-col lg:items-centerlg:items-center absolute top-8 right-4 mt-2 ">
+        <div className="flex items-center bg-rose-950 p-3">
+          <div className="lg:hidden text-amber-700  lg:flex  flex-col lg:items-centerlg:items-center   absolute top-8 right-4 mt-2 ">
             <h1 onClick={toggleMenu} className="cursor-pointer">
               <AiOutlineMenu />
             </h1>
@@ -38,7 +38,7 @@ export default function Navbar() {
         <ul
           className={`${
             showMenu
-              ? "flex flex-col  font-serif  lg:hidden p-2 lg:items-center absolute top-14 right-6 mt-2 z-10  "
+              ? "flex flex-col bg-rose-950 font-serif  lg:hidden p-2 lg:items-center absolute top-14 right-6 mt-2 z-10  "
               : "hidden"
           } lg:flex lg:flex-row  lg:items-center flex`}
         >
