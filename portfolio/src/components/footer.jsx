@@ -20,17 +20,17 @@ const Footer = () => {
       </div>
       <div>
         <ul className=' flex justify-center pt-5'>
-            <li className='mr-10 list-disc'>
+            <li className='mr-10 '>
              <Link to='/projects'>
               Projects
              </Link>
             </li>
-            <li className='mr-10 list-disc'>
+            <li className='mr-10 '>
              <Link to='/associations'>
               Badges
              </Link>
             </li>
-            <li className='list-disc'>
+            <li className=''>
              <Link to='/proficiency'>
              Technologies
              </Link>

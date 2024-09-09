@@ -16,7 +16,7 @@ export default function Navbar() {
     alignItems:'center',
   };
   const headingStyle = {
-    backgroundColor:'LightCoral',
+    backgroundColor:'',
     padding: '18px',
     fontFamily: 'Georgia,serif',
     color: 'LavenderBlush',
@@ -26,8 +26,8 @@ export default function Navbar() {
   };
 
   return (
-    <div style={headingStyle}  >
-      <nav style={navContainer} >
+    <div style={headingStyle} className="bg-rose-950" >
+      <nav style={navContainer}  >
         <div className="flex items-center p-3">
           <div className="lg:hidden text-rose-950 lg:flex  flex-col lg:items-centerlg:items-center absolute top-8 right-4 mt-2 ">
             <h1 onClick={toggleMenu} className="cursor-pointer">

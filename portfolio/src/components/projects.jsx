@@ -12,7 +12,7 @@ function Projects() {
       <div className="min-h-screen mt-16 flex items-center justify-center">
         <div className="sections-container max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="card-container">
-            <div className="card w-full bg-rose-900 shadow-xl">
+            <div className="card w-full bg-rose-950 shadow-xl">
               <figure>
                 <img src={art} alt="Art Heart" />
               </figure>
@@ -46,7 +46,7 @@ function Projects() {
             </div>
           </div>
           <div className="card-container">
-            <div className="card w-full bg-rose-900 shadow-xl">
+            <div className="card w-full bg-rose-950 shadow-xl">
               <figure>
                 <img src={commerce} alt="commerce" />
               </figure>
@@ -80,7 +80,7 @@ function Projects() {
             </div>
           </div>
           <div className="card-container">
-            <div className="card w-full bg-rose-900 shadow-xl">
+            <div className="card w-full bg-rose-950 shadow-xl">
               <figure>
                 <img src={portfolio} alt="Portfolio" />
               </figure>
@@ -112,7 +112,7 @@ function Projects() {
             </div>
           </div>
           <div className="card-container">
-            <div className="card w-full bg-rose-900 shadow-xl">
+            <div className="card w-full bg-rose-950 shadow-xl">
               <figure>
                 <img src={rental} alt="Rental Management System" />
               </figure>
@@ -139,7 +139,7 @@ function Projects() {
                 </p>
                 <div className="card-actions justify-end">
                   <div className="badge badge-outline text-neutral-100">
-                    Development in process....
+                    In Progress....
                   </div>
                 </div>
               </div>

@@ -8,7 +8,7 @@ function Associations() {
         <div className='min-h-screen sections-container'>
           <div className='section-links font-serif'>
             <div className="card-container">
-              <div className="card w-100 bg-rose-900 shadow-xl">
+              <div className="card w-100 bg-rose-950 shadow-xl">
                 
                 <div className="card-body">
                   <h2 className="card-title text-neutral-100">
