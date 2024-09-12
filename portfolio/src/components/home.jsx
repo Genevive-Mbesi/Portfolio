@@ -11,10 +11,10 @@ export default function Home() {
       <div className=" flex flex-col min-h-screen  bg-fuchsia-50 text-gray-100 p-4 md:p-20">
         <div className="card lg:card-side justify-center items-center w-100 shadow-2xl">
           <figure>
-            <img src={assets} alt="Album" className="w-96 motion-safe:animate-bounce h-96" />
+            <img src={assets} alt="Album" className="w-100 h-96" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-amber-950 font-serif p-4  text-5xl font-bold">
+            <h2 className="card-title text-amber-950 font-serif  text-5xl font-bold">
               Genevive Mbesi
             </h2>
             <p className="text-3xl font-serif  text-amber-700">
@@ -22,23 +22,22 @@ export default function Home() {
             </p>
             <Contacts />
             <div className="card-container">
-            <div className="card w-100 bg-rose-950 shadow-xl">
+            <div className=" w-100 bg-rose-950 shadow-xl">
               <div className="card-body">
-                <h2 className="card-title text-neutral-100">
-                  About
+                <h2 className="font-serif text-3xl text-neutral-100">
+                  Get to know me
                   <div className="text-4xl">
                     <a href="https://github.com/Genevive-Mbesi/Portfolio">
                     </a>
                   </div>
                 </h2>
-                <p className="text-gray-100  text-base text-lg">
+                <p className="text-gray-100 font-serif text-base text-lg">
                     <span className="text-amber-700 font-semibold ">
                       Mbesi(she/her)
                     </span>
                     <br />
                     is creative individual who is passionate about <br />
                     Software development,
-                    <br />
                     she aspires to create fun solutions
                     <br />
                     to modern world problems through technology,
@@ -48,18 +47,18 @@ export default function Home() {
                     inspire her creativity to a world of limitless
                     possibilities.
                   </p>
-                  <div className="card-actions  justify-end">
+                  <div className="card-actions font-serif  justify-end">
                     <Link to="/projects">
-                      <button className="text-gray-100  btn bg-amber-700">
+                      <div className="text-gray-100  btn bg-amber-700">
                         {" "}
                         Projects
-                      </button>
+                      </div>
                     </Link>
                     <Link to="/blog">
-                      <button className="text-gray-100  btn bg-amber-700">
+                      <div className="text-gray-100  btn bg-amber-700">
                         {" "}
                         Insights
-                      </button>
+                      </div>
                     </Link>
                   </div>
                   
