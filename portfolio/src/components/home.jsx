@@ -55,7 +55,7 @@ export default function Home() {
                       </div>
                     </Link>
                     <Link to="/blog">
-                      <div className="text-gray-100  btn bg-amber-700">
+                      <div className="text-gray-100 btn bg-amber-700">
                         {" "}
                         Insights
                       </div>
@@ -78,8 +78,8 @@ export default function Home() {
           </div>
           <div className=" justify-center w-100  ">
           <div className="card-body" >
-          <p className="  pt-16 flex items-center  text-3xl justify-center font-serif  text-amber-700">
-               Core Projects
+          <p className="  pt-16 flex items-center  text-2xl justify-center border-line divider font-serif  text-amber-700">
+            PROJECTS
             </p> 
           <Projects /> 
             </div>
