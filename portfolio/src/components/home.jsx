@@ -14,7 +14,7 @@ export default function Home() {
             <h2 className="card-title text-slate-950 font-serif  text-5xl font-bold">
               Genevive Mbesi
             </h2>
-            <p className="text-3xl font-serif  text-zinc-100">
+            <p className="text-3xl font-serif  text-zinc-50">
               Software Engineer
             </p>
             <Contacts />
@@ -24,7 +24,7 @@ export default function Home() {
                   <img src={assets} alt="Album" className="w-full object-cover float-right h-72" />
                 </figure>
                 <div className="card-body">
-                  <h2 className="font-serif text-3xl text-zinc-100">
+                  <h2 className="font-serif text-3xl text-zinc-50">
                     Get to know me
                     <div className="text-4xl">
                     <a href="https://github.com/Genevive-Mbesi/Portfolio">
