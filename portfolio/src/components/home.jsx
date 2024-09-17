@@ -37,9 +37,9 @@ export default function Home() {
                     </span>
                     <br />
                     Is a passionate full-stack developer with a knack for creativity mainly focused on
-                    front-end programming, <br/>and a keen eye for design that brings
+                    front-end programming, and a keen eye for design that brings
                     ideas to life and thrives on creating seamless and engaging
-                    user experiences,<br/>with a mastery of cutting-edge front-end
+                    user experiences,with a mastery of cutting-edge front-end
                     technologies,including but not limited to JavaScript and its frameworks such
                     as React and next.js and CSS modules.
                   </p>
