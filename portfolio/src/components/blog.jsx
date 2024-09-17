@@ -1,6 +1,6 @@
 import React from "react";
 import ReactQuill from "react-quill";
-import "react-quill/dist/quill.snow.css"; 
+import "react-quill/dist/quill.snow.css";
 
 const blogPosts = [
   {
@@ -15,25 +15,24 @@ const blogPosts = [
       <br/><br/>
       <h2><strong>Choose a Personality</strong></h2>
       <h3>Define a fixed set of shades upfront that you can choose from as you work, most projects require at least five shades per color.<br/>
-      <br/><strong>Choose a base color first <br/></strong>This is the mid point, the lighter and darker shades are based from this.<br/>
-       <br/><strong>Limit your choices, when limited to a set of options that are noticeably different picking the best ones is easy.</strong>
+      <br/>Choose a base color first, this is the mid point, the lighter and darker shades are based from this.<br/>
+       <br/>Limit your choices, when limited to a set of options that are noticeably different picking the best ones is easy.
        <br/>
         <br><strong>Define the edges <br/></strong>The darkest shades are usually reserved for for texts and the lighter shades
          are used for backgrounds in an element, then you can fill in the gaps with the shades in between.<br/>
-        <br/><strong>Trust your eyes not the number.</strong>
+<br/>Trust your eyes not the number.
       </h3>
       <br/><br/>
       <h2><strong>Separate Visual Hierarchy from document hierarchy </strong></h2>
      <h3>Deliberately de-emphasize secondary and Tertiary Information, here size isn't everything try
-     using fontweight and color to achieve this.</h3>
-      <h3>Use darker colors  for primary content, greyish colors for secondary content and lighter colors for tertiary content.</h3><br/>
-     <strong>Making the text color closer to the background helps create hierarchy.</strong>
+     using fontweight and color to achieve this.</h3><br/>
+      <h3>Use darker colors  for primary content, greyish colors for secondary content and lighter colors for tertiary content.<br/>
+     <br/>Making the text color closer to the background helps create hierarchy.
       <br/>
       <br/><br/>
       <h2><strong>Be Creative</strong></h2>
-       <h3>Break into sections, use multiple columns, add supporting text and colorful icons.<br/>Introduce hierarchy in columns, add images if it makes sense and also use cards and button like square designs. </h3>
- <br/>
- <strong>Systemize everything, the less you shall need to second guess your own decisions</strong>.
+       <h3>Break into sections, use multiple columns, add supporting text and colorful icons.<br/><br/>Introduce hierarchy in columns, add images if it makes sense and also use cards and button like square designs. 
+ <br/><br/>Systemize everything, the less you shall need to second guess your own decisions.<h3/>
   
     `,
   },
@@ -69,7 +68,7 @@ const blogPosts = [
 function BlogManager() {
   return (
     <div className="max-w-4xl mx-auto p-8">
-      {blogPosts.map(post => (
+      {blogPosts.map((post) => (
         <div key={post.id} className="mb-8">
           <input
             type="text"
@@ -91,7 +90,7 @@ function BlogManager() {
               readOnly
               className="shadow-2xl w-full mt-5 text-slate-950 bg-zinc-100 rounded-lg font-serif focus:outline-none focus:shadow-outline"
               theme="snow"
-              modules={{ toolbar: false }} 
+              modules={{ toolbar: false }}
             />
             <style>
               {`
