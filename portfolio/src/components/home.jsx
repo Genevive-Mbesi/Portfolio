@@ -18,10 +18,10 @@ export default function Home() {
               Software Engineer
             </p>
             <Contacts />
-            <div className="card-container">
+            <div className="card-container ">
               <div className=" w-100 bg-zinc-300 shadow-xl">
                 <figure>
-                  <img src={assets} alt="Album" className="w-100 h-100" />
+                  <img src={assets} alt="Album" className="w-full object-cover float-right h-72" />
                 </figure>
                 <div className="card-body">
                   <h2 className="font-serif text-3xl text-zinc-100">
@@ -36,14 +36,14 @@ export default function Home() {
                       Mbesi(she/her)
                     </span>
                     <br />
-                    Is a passionate full-stack developer with a main focus on
-                    front-end programming, and a keen eye for design that brings
+                    Is a passionate full-stack developer with a knack for creativity mainly focused on
+                    front-end programming, <br/>and a keen eye for design that brings
                     ideas to life and thrives on creating seamless and engaging
-                    user experiences, with a mastery of cutting-edge front-end
-                    technologies, including JavaScript and its frameworks such
+                    user experiences,<br/>with a mastery of cutting-edge front-end
+                    technologies,including but not limited to JavaScript and its frameworks such
                     as React and next.js and CSS modules.
                   </p>
-                  <div className="card-actions font-serif  justify-end">
+                  <div className="card-actions font-serif justify-end ">
                     <Link to="/projects">
                       <div className="text-slate-50  btn bg-zinc-700">
                         {" "}
