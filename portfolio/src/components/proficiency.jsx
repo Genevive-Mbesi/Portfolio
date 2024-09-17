@@ -15,7 +15,7 @@ import TypeScript from "../assets/TypeScript.png"
 
 export default function Proficiency() {
   return (
-    <div className="container  font-mono mx-auto px-20 text-amber-700 p-10 ">
+    <div className="container  font-mono mx-auto px-20 text-slate-950 p-10 ">
       <div className=" flex py-10 items-center mr-10">
         <div className="column-row">
           <img

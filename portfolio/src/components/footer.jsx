@@ -6,8 +6,9 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
     
   return (
-    <footer className='text-gray-100 bg-rose-950 mt-10 pt-10'>
-      <div id='footer' className="container mx-auto  flex items-center justify-center flex gap-5 text-3xl text-slate-100 pt-10">
+    <div>
+    <footer className='text-zinc-100 bg-zinc-700 mt-10 pt-10'>
+      <div id='footer' className="container mx-auto  flex items-center justify-center flex gap-5 text-3xl text-zinc-100 pt-10">
          <a href= 'https://github.com/Genevive-Mbesi'>
            <AiFillGithub/>
            </a>
@@ -39,6 +40,7 @@ const Footer = () => {
       </div>
       <p className=' flex justify-center pt-5'>genmbesi@gmail.com | &copy; {currentYear}</p>
     </footer>
+    </div> 
   );
 };
 
