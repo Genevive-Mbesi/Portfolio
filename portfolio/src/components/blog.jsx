@@ -9,30 +9,25 @@ const blogPosts = [
     subtitle: "Streamlining The Design Cycle",
     content: `
       
-      <h2><strong>Prioritize Functionality</strong></h2>
+      <h3><strong>Prioritize Functionality</strong></h3>
       <h3>Refrain from incorporating designs and color at the initial stage instead implement your functionalities.This will ease 
       your mind and imagination from doing all the heavy lifting.</h3>
-      <br/><br/>
-      <h2><strong>Choose a Personality</strong></h2>
-      <h3>Define a fixed set of shades upfront that you can choose from as you work, most projects require at least five shades per color.<br/>
-      <br/>Choose a base color first, this is the mid point, the lighter and darker shades are based from this.<br/>
-       <br/>Limit your choices, when limited to a set of options that are noticeably different picking the best ones is easy.
+      <br/>
+      <h3><strong>Choose a Personality</strong></h3>
+      <h3>Define a fixed set of shades upfront that you can choose from as you work, most projects require at least five shades per color.<br/>Choose a base color first, this is the mid point, the lighter and darker shades are based from this.<br/>Limit your choices, when limited to a set of options that are noticeably different picking the best ones is easy.
        <br/>
         <br><strong>Define the edges <br/></strong>The darkest shades are usually reserved for for texts and the lighter shades
-         are used for backgrounds in an element, then you can fill in the gaps with the shades in between.<br/>
-<br/>Trust your eyes not the number.
+         are used for backgrounds in an element, then you can fill in the gaps with the shades in between.<br/>Trust your eyes not the number.
       </h3>
-      <br/><br/>
-      <h2><strong>Separate Visual Hierarchy from document hierarchy </strong></h2>
+      <br/><h3><strong>Separate Visual Hierarchy from document hierarchy </strong></h3>
      <h3>Deliberately de-emphasize secondary and Tertiary Information, here size isn't everything try
-     using fontweight and color to achieve this.</h3><br/>
-      <h3>Use darker colors  for primary content, greyish colors for secondary content and lighter colors for tertiary content.<br/>
-     <br/>Making the text color closer to the background helps create hierarchy.
+     using fontweight and color to achieve this.</h3>
+      <h3>Use darker colors  for primary content, greyish colors for secondary content and lighter colors for tertiary content.<br/>Making the text color closer to the background helps create hierarchy.
       <br/>
-      <br/><br/>
-      <h2><strong>Be Creative</strong></h2>
-       <h3>Break into sections, use multiple columns, add supporting text and colorful icons.<br/><br/>Introduce hierarchy in columns, add images if it makes sense and also use cards and button like square designs. 
- <br/><br/>Systemize everything, the less you shall need to second guess your own decisions.<h3/>
+      <br/>
+      <h3><strong>Be Creative</strong></h3>
+       <h3>Break into sections, use multiple columns, add supporting text and colorful icons.<br/>Introduce hierarchy in columns, add images if it makes sense and also use cards and button like square designs. 
+ <br/>Systemize everything, the less you shall need to second guess your own decisions.<h3/>
   
     `,
   },
@@ -41,15 +36,15 @@ const blogPosts = [
     title: "The React-Next.js Continuum",
     subtitle: "Exploring React and Next.js",
     content: `
-      <h2><strong>React</strong></h2><br/>
+      <h3><strong>React</strong></h3>
       <h3> React is a front-end library developed by Facebook for building user interfaces, particularly single-page applications where you need a highly interactive and responsive UI.
        It allows developers to create reusable UI components.</h3><br/>
-       <h2><strong>Next.js</strong></h2><br/> 
+       <h3><strong>Next.js</strong></h3>
        <h3>Next.js is a framework built on top of React. It enhances React by adding server-side rendering (SSR), static site generation (SSG), 
        and other features like API routes, automatic code splitting, and optimized performance.</h3>
       
-       <br/><br/>
-       <h2><strong>React vs Next.js</strong></h2><br/>
+       <br/>
+       <h3><strong>React vs Next.js</strong></h3><br/>
        <h3><strong>Routing</strong></h3>
        <h3> React requires External Packages such as React Router installation to configure routes.<br/>Next.js uses a file based routing system each folder in the App System becomes a route and the folder names become the route path.</h3>
        <br/>
