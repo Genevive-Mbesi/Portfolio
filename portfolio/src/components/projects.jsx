@@ -125,7 +125,7 @@ function Projects() {
                     </a>
                   </div>
                 </h2>
-                <p className="text-slate-950">Rental Management System</p>
+                <p className="text-zinc-50">Rental Management System</p>
                 <p className="text-slate-950">
                   Rental Management System is a platform designed to help
                   property owners manage their rental properties
