@@ -65,7 +65,10 @@ function BlogManager() {
   return (
     <div className="max-w-4xl mx-auto p-8 font-serif">
       {blogPosts.map((post) => (
-        <div key={post.id} className="mb-10 p-6 bg-gray-100 shadow-lg rounded-lg">
+        <div
+          key={post.id}
+          className="mb-10 p-6 bg-gray-100 shadow-lg rounded-lg"
+        >
           <div className="flex items-center mb-4">
             <FaPenFancy className="text-indigo-500 text-xl mr-3" />
             <input

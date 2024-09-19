@@ -9,9 +9,8 @@ import tailwind from "../assets/Tailwind CSS.png";
 import mysql from "../assets/mysql.png";
 import htmllogo from "../assets/htmllogo.png";
 import csslogo from "../assets/csslogo.png";
-import Prisma from "../assets/Prisma.png"
-import TypeScript from "../assets/TypeScript.png"
-
+import Prisma from "../assets/Prisma.png";
+import TypeScript from "../assets/TypeScript.png";
 
 export default function Proficiency() {
   return (

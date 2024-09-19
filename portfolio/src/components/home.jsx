@@ -21,14 +21,18 @@ export default function Home() {
             <div className="card-container ">
               <div className=" w-100 bg-zinc-300 shadow-xl">
                 <figure>
-                  <img src={assets} alt="Album" className="w-full object-cover float-right h-72" />
+                  <img
+                    src={assets}
+                    alt="Album"
+                    className="w-full object-cover float-right h-72"
+                  />
                 </figure>
                 <div className="card-body">
                   <h2 className="font-serif text-3xl text-zinc-50">
                     Get to know me
                     <div className="text-4xl">
-                    <a href="https://github.com/Genevive-Mbesi/Portfolio">
-                    </a>
+                      <a href="https://github.com/Genevive-Mbesi/Portfolio">
+                      </a>
                     </div>
                   </h2>
                   <p className="text-slate-950 font-serif text-base text-lg">
@@ -36,12 +40,13 @@ export default function Home() {
                       Mbesi(she/her)
                     </span>
                     <br />
-                    Is a passionate full-stack developer with a knack for creativity mainly focused on
-                    front-end programming, and a keen eye for design that brings
-                    ideas to life and thrives on creating seamless and engaging
-                    user experiences,with a mastery of cutting-edge front-end
-                    technologies,including but not limited to JavaScript and its frameworks such
-                    as React and next.js and CSS modules.
+                    Is a passionate full-stack developer with a knack for
+                    creativity mainly focused on front-end programming, and a
+                    keen eye for design that brings ideas to life and thrives on
+                    creating seamless and engaging user experiences,with a
+                    mastery of cutting-edge front-end technologies,including but
+                    not limited to JavaScript and its frameworks such as React
+                    and next.js and CSS modules.
                   </p>
                   <div className="card-actions font-serif justify-end ">
                     <Link to="/projects">

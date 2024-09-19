@@ -27,13 +27,13 @@ function Projects() {
                 </h2>
                 <p className="text-zinc-100">Product Catalog</p>
                 <p className="text-slate-950">
-                   ArtHub_Ke website is committed to presenting a
-                  curated selection of art services and products available for
+                  ArtHub_Ke website is committed to presenting a curated
+                  selection of art services and products available for
                   purchase.The website is developed using{" "}
                   <span className="text-zinc-50">React </span>
                   and styled with{" "}
-                  <span className="text-zinc-50">Tailwind CSS </span>to ensure
-                  a seamless and visually appealing experience for customers.
+                  <span className="text-zinc-50">Tailwind CSS </span>to ensure a
+                  seamless and visually appealing experience for customers.
                 </p>
                 <div className="card-actions justify-end">
                   <a href="https://arthubke.vercel.app">
@@ -61,13 +61,19 @@ function Projects() {
                 </h2>
                 <p className="text-zinc-100">e-commerce website</p>
                 <p className="text-zinc-950">
-                Full-stack e-commerce application. Features include admin authentication, product listings, secure payment processing with  <span className="text-zinc-50">Stripe</span>, order management, 
-                and a responsive design to ensure a seamless shopping experience across all devices.
-                  This website is developed using{" "}
+                  Full-stack e-commerce application. Features include admin
+                  authentication, product listings, secure payment processing
+                  with <span className="text-zinc-50">Stripe</span>, order
+                  management, and a responsive design to ensure a seamless
+                  shopping experience across all devices. This website is
+                  developed using{" "}
                   <span className="text-zinc-50">Next.js(TypeScript) </span>
                   and styled with{" "}
-                  <span className="text-zinc-50">Tailwind CSS and ShadCDN. </span>
-                  <span className="text-zinc-50">Prisma</span> for Database Mangement.
+                  <span className="text-zinc-50">
+                    Tailwind CSS and ShadCDN.{" "}
+                  </span>
+                  <span className="text-zinc-50">Prisma</span> for Database
+                  Mangement.
                 </p>
                 <div className="card-actions justify-end">
                   <a href="https://mbesi-e-commerce.onrender.com">
@@ -98,8 +104,8 @@ function Projects() {
                   This website is developed using{" "}
                   <span className="text-zinc-50">React </span>
                   and styled with{" "}
-                  <span className="text-zinc-50">Tailwind CSS </span>to ensure
-                  a seamless and visually appealing experience for users.
+                  <span className="text-zinc-50">Tailwind CSS </span>to ensure a
+                  seamless and visually appealing experience for users.
                 </p>
                 <div className="card-actions justify-end">
                   <a href="https://mbesi.vercel.app">
