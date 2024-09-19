@@ -21,7 +21,7 @@ const blogPosts = [
       <h3><strong>Define the Edges</strong></h3>
       <h3>The darkest shades are usually reserved for texts, and the lighter shades are used for backgrounds. Fill the gaps with shades in between.</h3>
        <ul>
-        <li>Trust your eyes not the number</li>
+        <li>Trust your eyes not the number.</li>
       </ul>
       <br/>
       <h3><strong>Separate Visual Hierarchy from Document Hierarchy</strong></h3>
