@@ -61,7 +61,7 @@ function Projects() {
                 </h2>
                 <p className="text-zinc-100">e-commerce website</p>
                 <p className="text-zinc-950">
-                Full-stack e-commerce application. Features include admin authentication, product listings, secure payment processing with Stripe, order management, 
+                Full-stack e-commerce application. Features include admin authentication, product listings, secure payment processing with  <span className="text-zinc-50">Stripe</span>, order management, 
                 and a responsive design to ensure a seamless shopping experience across all devices.
                   This website is developed using{" "}
                   <span className="text-zinc-50">Next.js(TypeScript) </span>
