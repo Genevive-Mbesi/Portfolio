@@ -63,7 +63,7 @@ function Projects() {
                 <p className="text-zinc-950">
                   Full-stack e-commerce application. Features include admin
                   authentication, product listings, secure payment processing
-                  with <span className="text-zinc-50">Stripe</span>, order
+                  with <span className="text-zinc-50">Stripe</span> order
                   management, and a responsive design to ensure a seamless
                   shopping experience across all devices. This website is
                   developed using{" "}
