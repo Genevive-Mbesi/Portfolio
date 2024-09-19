@@ -20,10 +20,16 @@ const blogPosts = [
       <br/>
       <h3><strong>Define the Edges</strong></h3>
       <h3>The darkest shades are usually reserved for texts, and the lighter shades are used for backgrounds. Fill the gaps with shades in between.</h3>
+       <ul>
+        <li>Trust your eyes not the number</li>
+      </ul>
       <br/>
       <h3><strong>Separate Visual Hierarchy from Document Hierarchy</strong></h3>
       <h3>Deliberately de-emphasize secondary and tertiary information. Size isn't everything—try using font weight and color to achieve this.</h3>
       <h3>Use darker colors for primary content, greyish tones for secondary, and lighter colors for tertiary content.</h3>
+       <ul>
+        <li>Making the text color closer to the background helps create hierarchy.</li>
+      </ul>
       <br/>
       <h3><strong>Be Creative</strong></h3>
       <h3>Break content into sections, use multiple columns, and add supporting text or icons.<br/>Introduce hierarchy in columns, add images if they make sense, and use cards or button-like designs.</h3>
