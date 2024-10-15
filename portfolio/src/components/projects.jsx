@@ -5,7 +5,7 @@ import art from "../assets/artheart.jpeg";
 import rental from "../assets/rtm.png";
 import portfolio from "../assets/Portfolio.jpeg";
 import commerce from "../assets/commerce.jpeg";
-import tictac from "../assets/tictac.png"
+import xxxooo from "../assets/xxxooo.png"
 
 function Projects() {
   return (
@@ -49,7 +49,7 @@ function Projects() {
           <div className="card-container">
             <div className="card w-full bg-zinc-300 shadow-xl">
               <figure>
-                <img src={tictac} alt="tictac" />
+                <img src={xxxooo} alt="tictac" />
               </figure>
               <div className="card-body">
                 <h2 className="card-title text-zinc-950">
@@ -60,7 +60,7 @@ function Projects() {
                     </a>
                   </div>
                 </h2>
-                <p className="text-zinc-100"> React Tic-Tac-Toe Game </p>
+                <p className="text-zinc-100"> React xxx-ooo Game </p>
                 <p className="text-zinc-950">
                   React application. Features include 
                   authentication, a three connect game
