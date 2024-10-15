@@ -5,6 +5,7 @@ import art from "../assets/artheart.jpeg";
 import rental from "../assets/rtm.png";
 import portfolio from "../assets/Portfolio.jpeg";
 import commerce from "../assets/commerce.jpeg";
+import tictac from "../assets/tictac.png"
 
 function Projects() {
   return (
@@ -38,6 +39,44 @@ function Projects() {
                 <div className="card-actions justify-end">
                   <a href="https://arthubke.vercel.app">
                     <div className="badge badge-outline text-zinc-950">
+                      View Live Site
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card-container">
+            <div className="card w-full bg-zinc-300 shadow-xl">
+              <figure>
+                <img src={tictac} alt="tictac" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title text-zinc-950">
+                  React Auth App
+                  <div className="text-4xl">
+                    <a href="https://github.com/Genevive-Mbesi/React-auth-app">
+                      <AiFillGithub />
+                    </a>
+                  </div>
+                </h2>
+                <p className="text-zinc-100"> React Tic-Tac-Toe Game </p>
+                <p className="text-zinc-950">
+                  React application. Features include 
+                  authentication, a three connect game
+                 and a responsive design to ensure a seamless
+                  Gaming experience across all devices. This website is
+                  developed using{" "}
+                  <span className="text-zinc-50">React.js </span>
+                  and styled with{" "}
+                  <span className="text-zinc-50">
+                    Tailwind CSS 
+                  </span> and 
+                  <span className="text-zinc-50"> Firebase</span> for authentication
+                </p>
+                <div className="card-actions justify-end">
+                  <a href="https://react-auth-app-genevivembesis-projects.vercel.app/">
+                    <div className="badge badge-outline text-slate-950">
                       View Live Site
                     </div>
                   </a>
