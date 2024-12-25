@@ -88,6 +88,38 @@ function Projects() {
           <div className="card-container">
             <div className="card w-full bg-zinc-300 shadow-xl">
               <figure>
+                <img src={creativembesi} alt="Creative portfolio" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title text-slate-950">
+                  Creative Portfolio
+                  <div className="text-4xl">
+                    <a href="https://github.com/Genevive-Mbesi/create">
+                      <AiFillGithub />
+                    </a>
+                  </div>
+                </h2>
+                <p className="text-zinc-50">Creative Portfolio</p>
+                <p className="text-slate-950">
+                  This website is developed using{" "}
+                  <span className="text-zinc-50">Next.js </span>
+                  and styled with{" "}
+                  <span className="text-zinc-50">Tailwind CSS </span>to ensure a
+                  seamless and visually appealing experience for users.
+                </p>
+                <div className="card-actions justify-end">
+                  <a href="https://creativembesi.vercel.app">
+                    <div className="badge badge-outline text-slate-950">
+                      View Live Site
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card-container">
+            <div className="card w-full bg-zinc-300 shadow-xl">
+              <figure>
                 <img src={commerce} alt="commerce" />
               </figure>
               <div className="card-body">
@@ -125,38 +157,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className="card-container">
-            <div className="card w-full bg-zinc-300 shadow-xl">
-              <figure>
-                <img src={creativembesi} alt="Creative portfolio" />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title text-slate-950">
-                  Creative Portfolio
-                  <div className="text-4xl">
-                    <a href="https://github.com/Genevive-Mbesi/create">
-                      <AiFillGithub />
-                    </a>
-                  </div>
-                </h2>
-                <p className="text-zinc-50">Creative Portfolio</p>
-                <p className="text-slate-950">
-                  This website is developed using{" "}
-                  <span className="text-zinc-50">Next.js </span>
-                  and styled with{" "}
-                  <span className="text-zinc-50">Tailwind CSS </span>to ensure a
-                  seamless and visually appealing experience for users.
-                </p>
-                <div className="card-actions justify-end">
-                  <a href="https://creativembesi.vercel.app">
-                    <div className="badge badge-outline text-slate-950">
-                      View Live Site
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+         
           <div className="card-container">
             <div className="card w-full bg-zinc-300 shadow-xl">
               <figure>
