@@ -6,7 +6,7 @@ import rental from "../assets/rtm.png";
 import portfolio from "../assets/Portfolio.jpeg";
 import commerce from "../assets/commerce.jpeg";
 import xxxooo from "../assets/xxxooo.png"
-import creativembesi from "../assets/creativembesi.jpeg"
+import creativembesi from "../assets/creative.png"
 
 function Projects() {
   return (
