@@ -37,7 +37,7 @@ function Projects() {
                   </span>
                 </p>
                 <div className="card-actions justify-end">
-                <a href="https://talent-frontiers-solution.vercel.app">
+                <a href="https://talent--frontiers--solution.vercel.app">
                     <div className="badge badge-outline text-zinc-950">
                       View Live Site
                     </div>
