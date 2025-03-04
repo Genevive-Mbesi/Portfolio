@@ -2,7 +2,7 @@ import React from "react";
 import "./base.css";
 import { AiFillGithub } from "react-icons/ai";
 import art from "../assets/artheart.jpeg";
-import rental from "../assets/rtm.png";
+import talent from "../assets/talent.jpeg";
 import portfolio from "../assets/Portfolio.jpeg";
 import commerce from "../assets/commerce.jpeg";
 import xxxooo from "../assets/xxxooo.png"
@@ -13,6 +13,39 @@ function Projects() {
     <>
       <div className="min-h-screen mt-16 flex items-center justify-center">
         <div className="sections-container max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="card-container">
+            <div className="card w-full bg-zinc-300 shadow-xl">
+              <figure>
+                <img src={talent} alt="Talent" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title text-slate-950">
+                  Company Website Portfolio
+                  <div className="text-4xl">
+                    <a href="https://github.com/Genevive-Mbesi/Talent-Frontiers-Solution">
+                      <AiFillGithub />
+                    </a>
+                  </div>
+                </h2>
+                <p className="text-zinc-50">Company Website Portfolio</p>
+                <p className="text-slate-950">
+                This company website is designed to provide comprehensive information about the organization, including its background, the range of services it offers, and how potential clients or partners can get in touch. Additionally,
+                 it serves as a platform to showcase the company's mission, values, and any relevant updates or announcements.
+                {" "}
+                  <span className="text-zinc-50">
+                    TypeScript, Next.js, Tailwind CSS,Shadcn UI,Resend 
+                  </span>
+                </p>
+                <div className="card-actions justify-end">
+                <a href="https://talent-frontiers-solution.vercel.app">
+                    <div className="badge badge-outline text-zinc-950">
+                      View Live Site
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="card-container">
             <div className="card w-full bg-zinc-300 shadow-xl">
               <figure>
@@ -186,40 +219,6 @@ function Projects() {
                       View Live Site
                     </div>
                   </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card-container">
-            <div className="card w-full bg-zinc-300 shadow-xl">
-              <figure>
-                <img src={rental} alt="Rental Management System" />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title text-slate-950">
-                  Rental Management System
-                  <div className="text-4xl">
-                    <a href="https://github.com/eugenemrg/rental-management-system">
-                      <AiFillGithub />
-                    </a>
-                  </div>
-                </h2>
-                <p className="text-zinc-50">Rental Management System</p>
-                <p className="text-slate-950">
-                  Rental Management System is a platform designed to help
-                  property owners manage their rental properties
-                  efficiently,they can easily keep track of
-                  properties,tenants,and rental income,all in one place. Having
-                  developed the frontend, the following technologies were used{" "}
-                  <span className="text-zinc-50">
-                    JavaScript, React (React Router, React Bootstrap, React Auth
-                    Kit)
-                  </span>
-                </p>
-                <div className="card-actions justify-end">
-                  <div className="badge badge-outline text-slate-950">
-                    In Progress....
-                  </div>
                 </div>
               </div>
             </div>
