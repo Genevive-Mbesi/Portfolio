@@ -74,7 +74,7 @@ export default function Home() {
       </div>
       <div className=" justify-center w-100  ">
         <div className="card-body">
-          <p className="  pt-16 flex items-center  text-2xl justify-center border-line divider font-serif  text-slate-950">
+          <p className="  pt-16 flex items-center  text-2xl justify-center border-line divider  text-slate-950">
             PROJECTS
           </p>
           <Projects />
