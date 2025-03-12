@@ -34,7 +34,7 @@ const projects = [
     github: "https://github.com/Genevive-Mbesi/React-auth-app",
     live: "https://react-auth-app-genevivembesis-projects.vercel.app/",
     description:
-      "A secure authentication system with Firebase, integrated with a tic-tac-toe game. ",
+      "A simple React Game with secure authentication system with Firebase, integrated with a tic-tac-toe game. ",
     tech: " Tech Stack : React.js and Tailwind CSS.",
   },
   {
@@ -43,7 +43,7 @@ const projects = [
     github: "https://github.com/Genevive-Mbesi/create",
     live: "https://creativembesi.vercel.app",
     description:
-      "A portfolio site showcasing creative works.",
+      "A creative's Website Portfolio showcasing digital creative skills.",
     tech: "Tech Stack :  Next.js and Tailwind CSS.",
   },
   {
