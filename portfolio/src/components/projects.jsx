@@ -76,11 +76,15 @@ function Projects() {
               index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
             } mb-16`}
           >
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full md:w-1/3 rounded-lg object-cover border border-black"
-            />
+            <div className="relative w-full md:w-1/3 flex justify-center">
+              <div className="border-8 border-black rounded-lg p-2 bg-gray-900">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full rounded-lg object-cover  border-gray-700"
+                />
+              </div>
+            </div>
             <div className="w-full md:w-2/3 font-sans-serif">
               <h2 className="text-2xl font-bold flex justify-between items-center">
                 {project.title}
