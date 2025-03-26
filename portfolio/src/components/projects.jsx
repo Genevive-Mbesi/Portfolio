@@ -28,7 +28,7 @@ const projects = [
     tech: "React and Tailwind CSS.",
   },
   {
-    title: "React Auth App",
+    title: "React Authentication App",
     image: xxxooo,
     github: "https://github.com/Genevive-Mbesi/React-auth-app",
     live: "https://react-auth-app-genevivembesis-projects.vercel.app/",
@@ -68,17 +68,17 @@ const projects = [
 function Projects() {
   return (
     <div className="min-h-screen mt-16 flex flex-col items-center px-12">
-      <div className="max-w-6xl w-full space-y-16">
+      <div className="max-w-6xl w-full space-y-24">
         {projects.map((project, index) => (
           <div
             key={index}
-            className={`flex flex-col md:flex-row items-center md:items-start gap-10 ${
+            className={`flex flex-col md:flex-row items-center md:items-start gap-16 ${
               index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-            } mb-16`}
+            }`}
           >
             <div className="relative w-full md:w-1/3 flex justify-center">
-              <div className="border border-gray-400 p-4 rounded-lg hover:border-gray-600 transition duration-300">
-                <div className="border-8 border-black rounded-lg p-2 bg-gray-900">
+              <div className="border border-gray-400 p-4 rounded-lg hover:border-gray-600 transition duration-300 hover:shadow-xl hover:scale-105">
+                <div className="border-8 border-black rounded-lg p-2 bg-gray-900 shadow-md">
                   <img
                     src={project.image}
                     alt={project.title}
@@ -88,22 +88,22 @@ function Projects() {
               </div>
             </div>
             <div className="w-full md:w-2/3 font-sans-serif">
-              <h2 className="text-2xl font-bold flex justify-between items-center">
+              <h2 className="text-3xl font-bold flex justify-between items-center">
                 {project.title}
                 <a href={project.github} target="_blank" rel="noopener noreferrer">
                   <AiFillGithub className="text-3xl hover:text-gray-700 transition" />
                 </a>
               </h2>
-              <p className="text-lg text-gray-900 mt-2 leading-relaxed">
+              <p className="text-lg text-gray-900 mt-4 leading-relaxed">
                 {project.description}
               </p>
               <p className="text-gray-600 font-semibold mt-2">{project.tech}</p>
-              <div className="mt-4">
+              <div className="mt-6">
                 <a
                   href={project.live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-5 py-2 bg-white text-black font-bold rounded-lg hover:bg-black hover:text-white transition"
+                  className="px-6 py-3 bg-white text-black font-bold rounded-lg hover:bg-black hover:text-white transition shadow-md hover:shadow-lg"
                 >
                   View Live
                 </a>
