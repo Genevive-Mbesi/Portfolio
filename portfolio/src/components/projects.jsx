@@ -68,13 +68,18 @@ const projects = [
 function Projects() {
   return (
     <div className="min-h-screen mt-16 flex flex-col items-center px-12">
-      <div className="max-w-6xl w-full space-y-12">
+      <div className="max-w-6xl w-full space-y-16">
         {projects.map((project, index) => (
-          <div key={index} className="flex flex-col md:flex-row items-center md:items-start gap-10">
+          <div
+            key={index}
+            className={`flex flex-col md:flex-row items-center md:items-start gap-10 ${
+              index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+            } mb-16`}
+          >
             <img
               src={project.image}
               alt={project.title}
-              className="w-full md:w-1/3 rounded-lg object-cover"
+              className="w-full md:w-1/3 rounded-lg object-cover border border-black"
             />
             <div className="w-full md:w-2/3 font-sans-serif">
               <h2 className="text-2xl font-bold flex justify-between items-center">
@@ -92,7 +97,7 @@ function Projects() {
                   href={project.live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-5 py-2 bg-white text-black font-bold rounded-lg rounded hover:bg-black hover:text-white transition"
+                  className="px-5 py-2 bg-white text-black font-bold rounded-lg hover:bg-black hover:text-white transition"
                 >
                   View Live
                 </a>
