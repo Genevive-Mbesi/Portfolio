@@ -77,12 +77,14 @@ function Projects() {
             } mb-16`}
           >
             <div className="relative w-full md:w-1/3 flex justify-center">
-              <div className="border-8 border-black rounded-lg p-2 bg-gray-900">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full rounded-lg object-cover  border-gray-700"
-                />
+              <div className="border border-gray-400 p-4 rounded-lg hover:border-gray-600 transition duration-300">
+                <div className="border-8 border-black rounded-lg p-2 bg-gray-900">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full rounded-lg object-cover border border-gray-700"
+                  />
+                </div>
               </div>
             </div>
             <div className="w-full md:w-2/3 font-sans-serif">
