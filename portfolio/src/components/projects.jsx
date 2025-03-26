@@ -15,9 +15,8 @@ const projects = [
     github: "https://github.com/Genevive-Mbesi/Talent-Frontiers-Solution",
     live: "https://talent--frontiers--solution.vercel.app",
     description:
-      "A corporate Website Portfolio.  ",
-      
-    tech: "Tech Stack :  Next.js, TypeScript, Tailwind CSS, Shadcn UI, and Resend.",
+      "A professionally crafted corporate portfolio that enhances brand presence and provides a structured digital showcase.",
+    tech: "Next.js, TypeScript, Tailwind CSS, Shadcn UI, and Resend.",
   },
   {
     title: "ArtHub_Ke",
@@ -25,8 +24,8 @@ const projects = [
     github: "https://github.com/Genevive-Mbesi/MbesiArt",
     live: "https://arthubke.vercel.app",
     description:
-      "An e-commerce platform for curated art products and services.",
-    tech: "Tech Stack :  React and Tailwind CSS.",
+      "A digital marketplace for curated art collections and creative services, providing artists a seamless online storefront.",
+    tech: "React and Tailwind CSS.",
   },
   {
     title: "React Auth App",
@@ -34,8 +33,8 @@ const projects = [
     github: "https://github.com/Genevive-Mbesi/React-auth-app",
     live: "https://react-auth-app-genevivembesis-projects.vercel.app/",
     description:
-      "A simple React Game with secure authentication system with Firebase, integrated with a tic-tac-toe game. ",
-    tech: " Tech Stack : React.js, Firebase and Tailwind CSS.",
+      "A React authentication system powered by Firebase, integrated with a fun, interactive Tic-Tac-Toe game.",
+    tech: "React.js, Firebase, and Tailwind CSS.",
   },
   {
     title: "Creative Portfolio",
@@ -43,8 +42,8 @@ const projects = [
     github: "https://github.com/Genevive-Mbesi/create",
     live: "https://creativembesi.vercel.app",
     description:
-      "A creative's Website Portfolio showcasing digital creative skills.",
-    tech: "Tech Stack :  Next.js and Tailwind CSS.",
+      "A sleek and modern portfolio showcasing digital creativity and design expertise, crafted with a strong UI/UX approach.",
+    tech: "Next.js and Tailwind CSS.",
   },
   {
     title: "E-commerce Platform",
@@ -52,8 +51,8 @@ const projects = [
     github: "https://github.com/Genevive-Mbesi/commerce",
     live: "https://mbesi-e-commerce.onrender.com",
     description:
-      "Full-stack e-commerce application with admin authentication, secure Stripe payments, and Prisma for database management.",
-    tech: " Tech Stack : Next.js (TypeScript), Tailwind CSS, and Shadcn UI.",
+      "A full-stack e-commerce platform with admin authentication, Stripe integration, and database management with Prisma.",
+    tech: "Next.js (TypeScript), Tailwind CSS, and Shadcn UI.",
   },
   {
     title: "Portfolio Website",
@@ -61,41 +60,41 @@ const projects = [
     github: "https://github.com/Genevive-Mbesi/Portfolio",
     live: "https://mbesi.vercel.app",
     description:
-      "Personal portfolio website ",
-    tech: "Tech Stack : React and Tailwind CSS.",
+      "A structured and elegant personal portfolio, built to effectively showcase skills, projects, and professional expertise.",
+    tech: "React and Tailwind CSS.",
   },
 ];
 
 function Projects() {
   return (
-    <div className="min-h-screen mt-16 flex items-center justify-center">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+    <div className="min-h-screen mt-16 flex flex-col items-center px-12">
+      <div className="max-w-6xl w-full space-y-12">
         {projects.map((project, index) => (
-          <div
-            key={index}
-            className="card bg-zinc-300 shadow-xl transform transition-all duration-300 hover:scale-105"
-          >
-            <figure>
-              <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
-            </figure>
-            <div className="card-body p-6">
-              <h2 className="card-title text-white font-bold flex justify-between items-center">
+          <div key={index} className="flex flex-col md:flex-row items-center md:items-start gap-10">
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full md:w-1/3 rounded-lg object-cover"
+            />
+            <div className="w-full md:w-2/3 font-sans-serif">
+              <h2 className="text-2xl font-bold flex justify-between items-center">
                 {project.title}
                 <a href={project.github} target="_blank" rel="noopener noreferrer">
-                  <AiFillGithub className="text-4xl hover:text-gray-700 transition" />
+                  <AiFillGithub className="text-3xl hover:text-gray-700 transition" />
                 </a>
               </h2>
-              <p className="text-sm text-black">{project.description}<br/>
-                <span className="text-gray-500 font-semibold">{project.tech}</span>
+              <p className="text-lg text-gray-900 mt-2 leading-relaxed">
+                {project.description}
               </p>
-              <div className="card-actions justify-end mt-4">
+              <p className="text-gray-600 font-semibold mt-2">{project.tech}</p>
+              <div className="mt-4">
                 <a
                   href={project.live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="badge  text-black  font-bold bg-white hover:bg-black hover:text-white transition"
+                  className="px-5 py-2 bg-white text-black font-bold rounded-lg rounded hover:bg-black hover:text-white transition"
                 >
-                  View Live 
+                  View Live
                 </a>
               </div>
             </div>

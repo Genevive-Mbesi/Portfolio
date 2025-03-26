@@ -74,9 +74,12 @@ export default function Home() {
       </div>
       <div className=" justify-center w-100  ">
         <div className="card-body">
-        <p className=" items-center text-3xl border-line divider  font-extrabold font-serif tracking-wide  text-center text-white uppercase">
-    <span className=" pb-1 px-4">Projects</span>
-  </p>
+  
+  <div className="bg-zinc-500  py-12">
+        <h1 className="text-2xl font-bold text-white   text-center">
+          FEATURED PROJECTS
+        </h1>
+      </div>
           <Projects />
         </div>
       </div>
