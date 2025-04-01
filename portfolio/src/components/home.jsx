@@ -75,7 +75,7 @@ export default function Home() {
       <div className=" justify-center w-100  ">
         <div className="card-body">
         <div className="w-full flex flex-col items-center py-12 bg-zinc-300">
-  <h1 className="text-3xl font-bold text-white tracking-wide  uppercase">
+  <h1 className="text-4xl font-bold text-white tracking-wide  uppercase">
     Featured Projects 
   </h1>
   <div className="mt-6 w-11/12 md:w-4/5">
