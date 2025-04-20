@@ -57,6 +57,20 @@ function App() {
           }
         />
         <Route
+          path="/proficiency"
+          element={
+            <TransitionGroup>
+              <CSSTransition
+                key="proficiency"
+                timeout={450}
+                classNames="fade"
+              >
+                <Proficiency />
+              </CSSTransition>
+            </TransitionGroup>
+          }
+        />
+        <Route
           path="/blog"
           element={
             <TransitionGroup>

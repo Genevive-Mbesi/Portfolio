@@ -48,6 +48,10 @@ export default function Navbar() {
             <Link to="/projects">Projects</Link>
           </li>
           <li style={headingStyle}>
+            <Link to="/proficiency">Proficiency</Link>
+          </li>
+          
+          <li style={headingStyle}>
             <Link to="/blog">Insights</Link>
           </li>
           <li style={headingStyle}>
