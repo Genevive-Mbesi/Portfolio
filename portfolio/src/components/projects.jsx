@@ -88,22 +88,22 @@ function Projects() {
               </div>
             </div>
             <div className="w-full md:w-2/3 font-sans-serif">
-              <h2 className="text-3xl font-bold flex justify-between items-center">
+              <h2 className="text-3xl font-bold flex font-serif justify-between items-center">
                 {project.title}
                 <a href={project.github} target="_blank" rel="noopener noreferrer">
                   <AiFillGithub className="text-3xl hover:text-gray-700 transition" />
                 </a>
               </h2>
-              <p className="text-lg text-gray-900 mt-4 leading-relaxed">
+              <p className="text-lg text-gray-900 font-serif mt-4 leading-relaxed">
                 {project.description}
               </p>
-              <p className="text-gray-600 font-semibold mt-2">{project.tech}</p>
+              <p className="text-gray-600 font-serif font-semibold mt-2">{project.tech}</p>
               <div className="mt-6">
                 <a
                   href={project.live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-6 py-3 bg-white text-black font-bold rounded-lg hover:bg-black hover:text-white transition shadow-md hover:shadow-lg"
+                  className="px-6 py-3 bg-white font-serif text-black font-bold rounded-lg hover:bg-black hover:text-white transition shadow-md hover:shadow-lg"
                 >
                   View Live
                 </a>

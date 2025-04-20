@@ -4,6 +4,7 @@ import Contacts from "./contacts";
 import { Link } from "react-router-dom";
 import "../App.css";
 import Projects from "./projects";
+import Proficiency from "./proficiency";
 
 export default function Home() {
   return (
@@ -72,10 +73,13 @@ export default function Home() {
           <div className="card-actions justify-end"></div>
         </div>
       </div>
+      
       <div className=" justify-center w-100  ">
+      <div className="w-full flex flex-col items-center text-4xl font-semibold  font-serif tracking-wide bg-zinc-300"> Tech Skills & Tools</div>
+      <Proficiency/>
         <div className="card-body">
         <div className="w-full flex flex-col items-center py-12 bg-zinc-300">
-  <h1 className="text-4xl font-bold text-white tracking-wide  uppercase">
+  <h1 className="text-5xl font-semibold font-serif tracking-wide">
     Featured Projects 
   </h1>
   <div className="mt-6 w-11/12 md:w-4/5">

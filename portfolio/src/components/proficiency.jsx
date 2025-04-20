@@ -53,23 +53,12 @@ const MotionCard = ({ skill }) => (
 
 export default function Proficiency() {
   return (
-    <div className="bg-gray-300 min-h-screen py-16 px-6 lg:px-32 font-mono text-slate-900">
-   
-
+    <div className="bg-zinc-300  py-16 px-6 lg:px-32 font-mono text-slate-900">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
         {skills.map((skill) => (
           <MotionCard key={skill.name} skill={skill} />
         ))}
       </div>
-
-      <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6, delay: 0.2 }}
-        className="mt-16 text-center space-y-6"
-      >
-      </motion.div>
     </div>
   );
 }
