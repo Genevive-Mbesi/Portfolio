@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <div>
-      <footer className="text-zinc-100 bg-zinc-700 mt-10 pt-10">
+      <footer className="text-zinc-100 font-serif bg-zinc-700 mt-10 pt-10">
         <div
           id="footer"
           className="container mx-auto  flex items-center justify-center flex gap-5 text-3xl text-zinc-100 pt-10"
@@ -24,10 +24,10 @@ const Footer = () => {
         </div>
         <div>
           <ul className=" flex justify-center pt-5">
-            <li className="mr-10 ">
+            <li className="mr-5 ">
               <Link to="/projects">Projects</Link>
             </li>
-            <li className="mr-10 ">
+            <li className="mr-5 ">
               <Link to="/associations">Badges</Link>
             </li>
             <li className="">
