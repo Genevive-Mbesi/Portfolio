@@ -59,7 +59,7 @@ export default function Home() {
                   <h2 className="font-serif text-3xl text-zinc-50">
                     Get to know me
                     <div className="text-4xl">
-                      <a href="https://github.com/Genevive-Mbesi/Portfolio"></a>
+                     
                     </div>
                   </h2>
                   <p className="text-slate-950 font-serif text-base text-lg">
