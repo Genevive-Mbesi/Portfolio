@@ -79,7 +79,7 @@ export default function Home() {
       <Proficiency/>
         <div className="card-body">
         <div className="w-full flex flex-col items-center py-12 bg-zinc-300">
-  <h1 className="text-5xl font-semibold font-serif tracking-wide">
+  <h1 className="text-4xl font-semibold font-serif tracking-wide">
     Featured Projects 
   </h1>
   <div className="mt-6 w-11/12 md:w-4/5">
