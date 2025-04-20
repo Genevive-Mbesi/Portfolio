@@ -88,7 +88,7 @@ function Projects() {
               </div>
             </div>
             <div className="w-full md:w-2/3 font-sans-serif">
-              <h2 className="text-3xl font-bold flex font-serif justify-between items-center">
+              <h2 className="text-2xl font-bold flex font-serif justify-between items-center">
                 {project.title}
                 <a href={project.github} target="_blank" rel="noopener noreferrer">
                   <AiFillGithub className="text-3xl hover:text-gray-700 transition" />
