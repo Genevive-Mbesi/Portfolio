@@ -55,7 +55,7 @@ export default function Navbar() {
             <Link to="/blog">Insights</Link>
           </li>
           <li style={headingStyle}>
-            <Link to="/associations">Badges</Link>
+            <Link to="/associations">Foundation</Link>
           </li>
         </ul>
       </nav>
