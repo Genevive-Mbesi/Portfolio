@@ -65,7 +65,8 @@ export default function Home() {
                   <p className="text-slate-950 font-serif text-base text-lg">
                     <span className="text-slate-950 font-semibold">Mbesi (she/her)</span>
                     <br />
-                    Is a passionate full-stack developer with a knack for creativity mainly focused on front-end programming, and a keen eye for design that brings ideas to life and thrives on creating seamless and engaging user experiences, with a mastery of cutting-edge front-end technologies, including but not limited to JavaScript and its frameworks such as React and Next.js, and CSS modules.
+                    Hello! My name is Genevive Mbesi a software  Developer with a passion for building beautiful and functional web experiences. I specialize in creating clean, responsive, and user-friendly interfaces and enjoy working on projects that allow me to blend creativity with functionality, 
+                    as well as UX/UI design. I Develop highly interactive Front end/User Interfaces for the web and Progressive Web Applications.
                   </p>
                   <div className="card-actions font-serif justify-end mt-4">
                     <Link to="/projects">
