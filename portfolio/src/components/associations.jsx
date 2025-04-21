@@ -17,7 +17,7 @@ function Associations() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h2 className="text-4xl font-bold font-serif text-center text-zinc-800 mb-6">
+          <h2 className="text-2xl font-bold font-serif text-center text-zinc-800 mb-6">
             Moringa School
           </h2>
 
