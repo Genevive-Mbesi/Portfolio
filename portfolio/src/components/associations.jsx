@@ -33,7 +33,7 @@ function Associations() {
               <h3 className="text-xl font-semibold mb-3">Key Skills Gained</h3>
               <ul className="list-disc list-inside space-y-2">
                 <li>HTML, CSS, Tailwind CSS</li>
-                <li>JavaScript (ES6+), React, Next.js</li>
+                <li>JavaScript (ES6+), React, Next.js, Python</li>
                 <li>Responsive UI Design & Accessibility</li>
                 <li>Version Control with Git & GitHub</li>
               </ul>
