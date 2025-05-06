@@ -17,6 +17,7 @@ import htmllogo from "../assets/htmllogo.png";
 import csslogo from "../assets/csslogo.png";
 import Prisma from "../assets/Prisma.png";
 import TypeScript from "../assets/TypeScript.png";
+import Wordpress from "../assets/wordpress.png";
 
 const skills = [
   { name: "Python", icon: Python },
@@ -34,6 +35,7 @@ const skills = [
   { name: "Git", icon: git },
   { name: "GitHub", icon: github },
   { name: "Tailwind CSS", icon: tailwind },
+  { name: "Wordpress", icon: Wordpress },
 ];
 
 const MotionCard = ({ skill }) => (
